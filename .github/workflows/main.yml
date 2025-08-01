@@ -18,6 +18,10 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+    
     steps:
       # 1. 리포지토리 코드를 불러옵니다.
       - name: Checkout repository
