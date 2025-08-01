@@ -1,0 +1,50 @@
+name: Scrape Marketplace Data
+
+on:
+  # 1. 매일 0, 6, 12, 18시(UTC 기준)에 자동으로 실행
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+  
+  # 2. 사용자가 items.json 파일을 수정하고 푸시했을 때 즉시 실행
+  push:
+    branches:
+      - main # main 브랜치 사용 시. 다른 브랜치라면 이름을 수정하세요.
+    paths:
+      - 'items.json'
+
+  # 3. 수동으로 직접 실행할 수 있도록 버튼 추가
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 리포지토리 코드를 불러옵니다.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 파이썬 환경을 설정합니다.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. 필요한 라이브러리를 설치합니다.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. 파이썬 스크립트를 실행하여 크롤링을 수행합니다.
+      - name: Run scraper
+        run: python scraper.py
+
+      # 5. 스크립트 실행으로 변경된 results.json 파일을 자동으로 커밋 및 푸시합니다.
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Update scraped data"
+          file_pattern: results.json
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions <actions@github.com>
