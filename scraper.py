@@ -1,7 +1,7 @@
 import json
 import re
 from datetime import datetime, timezone
-from requests_html import HTMLSession, MaxRetries
+from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
 ITEMS_FILE = 'items.json'
@@ -53,6 +53,7 @@ def scrape_site():
         return
 
     results_data = []
+    # HTMLSession을 생성합니다. as_posix()는 윈도우/리눅스 호환성을 위함
     session = HTMLSession()
 
     for item in items_to_scrape:
@@ -64,23 +65,21 @@ def scrape_site():
         print(f"Scraping data for: {item.get('name')} ({item_id})")
 
         try:
-            # --- 이 부분이 핵심 변경 사항입니다 ---
-            # requests 대신 HTMLSession을 사용하고, render()로 JavaScript를 실행합니다.
-            response = session.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+            response = session.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
             response.raise_for_status()
             
-            # JavaScript가 페이지를 완전히 그리도록 기다립니다. (중요)
-            # render() 대신 browser를 직접 사용하여 playwright 옵션을 전달합니다.
-            response.html.browser.close() # 기존 브라우저 인스턴스 정리
-            browser = session.browser # 새 브라우저 인스턴스 생성
-            page = browser.newPage()
-            page.goto(url, timeout=60000)
-            page.waitForLoadState('networkidle') # 모든 네트워크 요청이 끝날 때까지 대기
-            html_content = page.content()
-            page.close()
+            # --- 여기가 핵심 수정 사항입니다 ---
+            # JavaScript를 실행하여 페이지를 완전히 렌더링합니다.
+            # 이 함수 하나가 가상 브라우저를 실행하고, JS를 로딩하고, 결과를 기다리는 모든 역할을 합니다.
+            # timeout을 넉넉하게 주어 사이트 로딩을 기다립니다.
+            print("  - Page loaded, rendering JavaScript...")
+            response.html.render(sleep=3, timeout=60)
+            print("  - Rendering complete.")
+            
+            # 렌더링된 최종 HTML을 BeautifulSoup으로 파싱합니다.
+            html_content = response.html.html
+            soup = BeautifulSoup(html_content, 'lxml')
             # ------------------------------------
-
-            soup = BeautifulSoup(html_content, 'lxml') # 더 빠른 lxml 파서 사용
 
             name_en = soup.find('h1').get_text(strip=True) if soup.find('h1') else 'N/A'
             
@@ -109,11 +108,10 @@ def scrape_site():
                 "last_updated": datetime.now(timezone.utc).isoformat()
             })
             results_data.append(combined_item)
+            print(f"  - Success: '{name_en}' data processed.")
 
-        except MaxRetries:
-             print(f"  - Could not fetch data for {item.get('name')}. Max retries exceeded, likely due to bot protection.")
         except Exception as e:
-            print(f"  - An error occurred while processing {item.get('name')}. Error: {e}")
+            print(f"  - FAILED: An error occurred while processing {item.get('name')}. Error: {e}")
 
     session.close() # 세션 종료
     with open(RESULTS_FILE, 'w', encoding='utf-8') as f:
