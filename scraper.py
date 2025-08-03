@@ -1,50 +1,42 @@
 import json
 import re
 from datetime import datetime, timezone
-from requests_html import HTMLSession
+import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
+import time
 
 ITEMS_FILE = 'items.json'
 RESULTS_FILE = 'results.json'
 
 def get_price_from_element(soup, text_pattern):
-    """지정된 텍스트 패턴을 포함하는 요소를 찾아 가격을 추출합니다."""
     try:
         element = soup.find(lambda tag: tag.name == 'div' and re.search(text_pattern, tag.get_text()))
         if not element: return None
-        
         price_element = element.find_next_sibling('div')
         if not price_element:
             price_element = element.parent.find_next_sibling('div')
             if not price_element: return None
-
         price_text = price_element.get_text(strip=True).replace('R6 Credits', '').replace(',', '')
         return int(price_text)
     except (ValueError, AttributeError):
         return None
 
 def get_chart_data(soup):
-    """스크립트 태그에서 차트 데이터를 추출하여 최고/최저가를 찾습니다."""
     try:
         script_tag = soup.find('script', string=re.compile(r'new Chart\s*\(\s*document\.getElementById\(\'chart-daily\'\)'))
         if not script_tag: return None, None
-            
         script_content = script_tag.string
         match = re.search(r'data:\s*\[((?:[\d.]+,?\s*)*)\]', script_content)
         if not match: return None, None
-            
         prices_str = match.group(1).strip()
         if not prices_str: return None, None
-
         prices = [int(float(p.strip())) for p in prices_str.split(',') if p.strip()]
         if not prices: return None, None
-            
         return max(prices), min(prices)
     except Exception:
         return None, None
 
 def scrape_site():
-    """items.json을 읽어 사이트를 크롤링하고 results.json을 생성합니다."""
     try:
         with open(ITEMS_FILE, 'r', encoding='utf-8') as f:
             items_to_scrape = json.load(f)
@@ -53,71 +45,90 @@ def scrape_site():
         return
 
     results_data = []
-    # HTMLSession을 생성합니다. as_posix()는 윈도우/리눅스 호환성을 위함
-    session = HTMLSession()
+    driver = None
+    try:
+        print("Initializing undetected-chromedriver...")
+        options = uc.ChromeOptions()
+        options.add_argument('--headless=new') # 새로운 헤드리스 모드
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-gpu')
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--disable-extensions")
+        options.add_argument("--proxy-server='direct://'")
+        options.add_argument("--proxy-bypass-list=*")
+        options.add_argument("--start-maximized")
 
-    for item in items_to_scrape:
-        item_id = item.get('item_id')
-        if not item_id:
-            continue
+        driver = uc.Chrome(options=options, version_main=114)
+        print("Driver initialized successfully.")
 
-        url = f"https://stats.cc/siege/marketplace/{item_id}"
-        print(f"Scraping data for: {item.get('name')} ({item_id})")
+        for item in items_to_scrape:
+            item_id = item.get('item_id')
+            if not item_id: continue
 
-        try:
-            response = session.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
-            response.raise_for_status()
-            
-            # --- 여기가 핵심 수정 사항입니다 ---
-            # JavaScript를 실행하여 페이지를 완전히 렌더링합니다.
-            # 이 함수 하나가 가상 브라우저를 실행하고, JS를 로딩하고, 결과를 기다리는 모든 역할을 합니다.
-            # timeout을 넉넉하게 주어 사이트 로딩을 기다립니다.
-            print("  - Page loaded, rendering JavaScript...")
-            response.html.render(sleep=3, timeout=60)
-            print("  - Rendering complete.")
-            
-            # 렌더링된 최종 HTML을 BeautifulSoup으로 파싱합니다.
-            html_content = response.html.html
-            soup = BeautifulSoup(html_content, 'lxml')
-            # ------------------------------------
+            url = f"https://stats.cc/siege/marketplace/{item_id}"
+            print(f"Scraping data for: {item.get('name')} ({item_id})")
 
-            name_en = soup.find('h1').get_text(strip=True) if soup.find('h1') else 'N/A'
-            
-            tags = []
-            tags_header = soup.find('h4', string='Tags')
-            if tags_header:
-                tags_container = tags_header.find_next_sibling('div')
-                if tags_container:
-                    tags = [a.get_text(strip=True) for a in tags_container.find_all('a')]
+            try:
+                driver.get(url)
+                # Cloudflare가 챌린지를 완료할 시간을 줍니다.
+                time.sleep(7) 
 
-            avg_price_24h = get_price_from_element(soup, r'Average price \(24h\)')
-            avg_price_7d = get_price_from_element(soup, r'Average price \(7d\)')
-            avg_price_1y = get_price_from_element(soup, r'Average price \(1y\)')
-            
-            daily_max_price, daily_min_price = get_chart_data(soup)
+                html_content = driver.page_source
+                soup = BeautifulSoup(html_content, 'lxml')
+                
+                # "Whoops!"가 있는지 확인하여 봇 탐지를 감지
+                if "Whoops!" in soup.get_text():
+                    print("  - FAILED: Bot detection triggered (Whoops! page).")
+                    raise Exception("Bot detection")
 
-            combined_item = item.copy()
-            combined_item.update({
-                "name_en": name_en,
-                "tags": tags,
-                "avg_price_24h": avg_price_24h,
-                "avg_price_7d": avg_price_7d,
-                "avg_price_1y": avg_price_1y,
-                "daily_max_price": daily_max_price,
-                "daily_min_price": daily_min_price,
-                "last_updated": datetime.now(timezone.utc).isoformat()
-            })
-            results_data.append(combined_item)
-            print(f"  - Success: '{name_en}' data processed.")
+                name_en = soup.find('h1').get_text(strip=True) if soup.find('h1') else 'N/A'
+                
+                tags = []
+                tags_header = soup.find('h4', string='Tags')
+                if tags_header:
+                    tags_container = tags_header.find_next_sibling('div')
+                    if tags_container:
+                        tags = [a.get_text(strip=True) for a in tags_container.find_all('a')]
 
-        except Exception as e:
-            print(f"  - FAILED: An error occurred while processing {item.get('name')}. Error: {e}")
+                avg_price_24h = get_price_from_element(soup, r'Average price \(24h\)')
+                avg_price_7d = get_price_from_element(soup, r'Average price \(7d\)')
+                avg_price_1y = get_price_from_element(soup, r'Average price \(1y\)')
+                
+                daily_max_price, daily_min_price = get_chart_data(soup)
 
-    session.close() # 세션 종료
-    with open(RESULTS_FILE, 'w', encoding='utf-8') as f:
-        json.dump(results_data, f, ensure_ascii=False, indent=2)
+                combined_item = item.copy()
+                combined_item.update({
+                    "name_en": name_en,
+                    "tags": tags,
+                    "avg_price_24h": avg_price_24h,
+                    "avg_price_7d": avg_price_7d,
+                    "avg_price_1y": avg_price_1y,
+                    "daily_max_price": daily_max_price,
+                    "daily_min_price": daily_min_price,
+                    "last_updated": datetime.now(timezone.utc).isoformat()
+                })
+                results_data.append(combined_item)
+                print(f"  - Success: '{name_en}' data processed.")
 
-    print(f"\nScraping finished. Results saved to '{RESULTS_FILE}'.")
+            except Exception as e:
+                print(f"  - FAILED during processing {item.get('name')}. Error: {e}")
+                # 실패한 경우에도 기본 데이터 구조는 유지하되, 크롤링된 값은 null로 채웁니다.
+                failed_item = item.copy()
+                failed_item.update({
+                    "name_en": "CRAWL_FAILED", "tags": [], "avg_price_24h": None, "avg_price_7d": None,
+                    "avg_price_1y": None, "daily_max_price": None, "daily_min_price": None,
+                    "last_updated": datetime.now(timezone.utc).isoformat()
+                })
+                results_data.append(failed_item)
+
+    finally:
+        if driver:
+            driver.quit()
+            print("Driver quit.")
+        with open(RESULTS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(results_data, f, ensure_ascii=False, indent=2)
+        print(f"\nScraping finished. Results saved to '{RESULTS_FILE}'.")
 
 if __name__ == "__main__":
     scrape_site()
