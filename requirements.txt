@@ -1,2 +1,3 @@
 requests-html
 playwright
+lxml_html_clean
