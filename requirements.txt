@@ -1,3 +1,4 @@
 requests-html
 playwright
-lxml_html_clean
+lxml-html-clean
+pyee>=12.0.0,<13.0.0
