@@ -49,7 +49,7 @@ def scrape_site():
     try:
         print("Initializing undetected-chromedriver...")
         options = uc.ChromeOptions()
-        options.add_argument('--headless=new') # 새로운 헤드리스 모드
+        options.add_argument('--headless=new')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-gpu')
@@ -59,7 +59,11 @@ def scrape_site():
         options.add_argument("--proxy-bypass-list=*")
         options.add_argument("--start-maximized")
 
-        driver = uc.Chrome(options=options, version_main=114)
+        # --- 여기가 핵심 수정 사항입니다 ---
+        # version_main=114 옵션을 제거하여, 설치된 크롬 버전을 자동으로 감지하도록 합니다.
+        driver = uc.Chrome(options=options)
+        # ------------------------------------
+        
         print("Driver initialized successfully.")
 
         for item in items_to_scrape:
@@ -71,13 +75,11 @@ def scrape_site():
 
             try:
                 driver.get(url)
-                # Cloudflare가 챌린지를 완료할 시간을 줍니다.
                 time.sleep(7) 
 
                 html_content = driver.page_source
                 soup = BeautifulSoup(html_content, 'lxml')
                 
-                # "Whoops!"가 있는지 확인하여 봇 탐지를 감지
                 if "Whoops!" in soup.get_text():
                     print("  - FAILED: Bot detection triggered (Whoops! page).")
                     raise Exception("Bot detection")
@@ -113,7 +115,6 @@ def scrape_site():
 
             except Exception as e:
                 print(f"  - FAILED during processing {item.get('name')}. Error: {e}")
-                # 실패한 경우에도 기본 데이터 구조는 유지하되, 크롤링된 값은 null로 채웁니다.
                 failed_item = item.copy()
                 failed_item.update({
                     "name_en": "CRAWL_FAILED", "tags": [], "avg_price_24h": None, "avg_price_7d": None,
