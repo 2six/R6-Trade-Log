@@ -1,5 +1,38 @@
 [
   {
+    "item_id": "65bb4aeb-9c65-1ff9-c87a-f26cfab4c676",
+    "price": 15,
+    "name": "블랙 아이스",
+    "type": "무기 스킨",
+    "rarity": "에픽",
+    "season": "Y6S4",
+    "transaction_type": "구매 주문",
+    "transaction_date": "2025-08-03",
+    "status": "완료"
+  },
+  {
+    "item_id": "54718e5c-4c22-4206-82f0-24cca08b1253",
+    "price": 25,
+    "name": "블랙 아이스",
+    "type": "무기 스킨",
+    "rarity": "에픽",
+    "season": "Y1S1",
+    "transaction_type": "구매 주문",
+    "transaction_date": "2025-08-02",
+    "status": "완료"
+  },
+  {
+    "item_id": "8e228819-e92d-7040-7639-95f8a3a5326d",
+    "price": 350,
+    "name": "블랙 아이스",
+    "type": "무기 스킨",
+    "rarity": "에픽",
+    "season": "Y6S4",
+    "transaction_type": "구매 주문",
+    "transaction_date": "2025-08-02",
+    "status": "완료"
+  },
+  {
     "item_id": "8b4f7a27-e6b2-b783-58ed-39f1e3712ef3",
     "price": 20,
     "name": "스플릿 스쿼터",
