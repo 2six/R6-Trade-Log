@@ -1,0 +1,3983 @@
+[
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2ca4f626-beaf-4428-8427-33153f2e9db5",
+    "tradeId": "2ca4f626-beaf-4428-8427-33153f2e9db5",
+    "state": "Created",
+    "category": "Sell",
+    "createdAt": "2025-08-05T06:34:50.295Z",
+    "lastModifiedAt": "2025-08-05T06:34:50.425Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e3c5f6cf-b6c9-4df0-b14a-a0f8fd72fad0",
+          "name": "블랙 아이스",
+          "tags": [
+            "F2",
+            "Texture",
+            "W_AR_FAMASG2",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f843c6b1_ba62_dc85_9392_a708bd22815d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-087e20ce-4f22-4260-a243-f1dfef902c88",
+    "tradeId": "087e20ce-4f22-4260-a243-f1dfef902c88",
+    "state": "Failed",
+    "category": "Sell",
+    "createdAt": "2025-07-06T00:58:31.238Z",
+    "lastModifiedAt": "2025-08-05T00:59:04.731Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e3c5f6cf-b6c9-4df0-b14a-a0f8fd72fad0",
+          "name": "블랙 아이스",
+          "tags": [
+            "F2",
+            "Texture",
+            "W_AR_FAMASG2",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f843c6b1_ba62_dc85_9392_a708bd22815d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-c674a43d-3c1d-48ae-89dc-2e4379140416",
+    "tradeId": "c674a43d-3c1d-48ae-89dc-2e4379140416",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-04T08:12:19.341Z",
+    "lastModifiedAt": "2025-08-04T21:44:14.057Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2277092f-38a6-e908-8856-eb827ee97b91",
+          "name": "블랙 아이스",
+          "tags": [
+            "PARA-308",
+            "Texture",
+            "Y6S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/247dcd98_005c_f0ce_8d26_78b962ba3772.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 450,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 451,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-fdeeb377-d412-4a0c-82f9-3bde018258a1",
+    "tradeId": "fdeeb377-d412-4a0c-82f9-3bde018258a1",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-04T08:12:00.622Z",
+    "lastModifiedAt": "2025-08-04T09:47:46.027Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "b1cdb343-8ca2-4f7e-b489-af66bfe914cd",
+          "name": "블랙 아이스",
+          "tags": [
+            "SMG-11",
+            "Texture",
+            "W_MP_MAC11",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dd1d42bd_53ce_0c52_e256_4808fb7667ac.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 650,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 660,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2eafe906-a829-4c76-b8b2-dac2b781fd8a",
+    "tradeId": "2eafe906-a829-4c76-b8b2-dac2b781fd8a",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-04T08:22:53.847Z",
+    "lastModifiedAt": "2025-08-04T09:00:02.682Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "66d7ff5b-186c-4dc1-bc9e-e0b993bed73e",
+          "name": "회복 중",
+          "tags": [
+            "Character.Y3S1.FINKA",
+            "Y5S3",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1194558e_240b_f5c9_a88f_30b02efc8c36.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 31,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-fdbe349d-ab15-43da-8563-86a5ceef10b3",
+    "tradeId": "fdbe349d-ab15-43da-8563-86a5ceef10b3",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-04T08:22:44.893Z",
+    "lastModifiedAt": "2025-08-04T08:22:45.122Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e42e281c-4702-4985-af4a-a77f382f1302",
+          "name": "격리",
+          "tags": [
+            "Character.Y3S1.FINKA",
+            "Y3S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_fury-edition-v0",
+            "lc_fury-edition-v1",
+            "lc_fury-edition-v2",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/065f55d8_051d_75a3_6322_219e5b2c7d3f.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-f589b047-2b94-4976-8331-e2de92edc05e",
+    "tradeId": "f589b047-2b94-4976-8331-e2de92edc05e",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:03:02.060Z",
+    "lastModifiedAt": "2025-08-04T08:22:00.151Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "7ec73c26-72b7-4ea1-bdd5-7eb70b2fdb4f",
+          "name": "블랙 아이스",
+          "tags": [
+            "M870",
+            "Texture",
+            "W_SG_RemingtonM870",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/398e9dcd_9111_7fab_5578_cf4091eff398.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 20,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-a14e46ca-c566-47fc-92b7-b4d30edee3cf",
+    "tradeId": "a14e46ca-c566-47fc-92b7-b4d30edee3cf",
+    "state": "Created",
+    "category": "Buy",
+    "createdAt": "2025-08-04T08:12:56.761Z",
+    "lastModifiedAt": "2025-08-04T08:12:56.879Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2efcd20b-01d7-8a87-1e5b-f180ccca7cdc",
+          "name": "블랙 아이스",
+          "tags": [
+            "Bailiff_410",
+            "Texture",
+            "Y6S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ef347d88_ad78_da06_6248_d40fd1b6b6cf.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 255,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-e5aa9a5f-0cc5-46a7-a943-d4635db3f532",
+    "tradeId": "e5aa9a5f-0cc5-46a7-a943-d4635db3f532",
+    "state": "Created",
+    "category": "Buy",
+    "createdAt": "2025-08-04T08:11:47.288Z",
+    "lastModifiedAt": "2025-08-04T08:11:47.432Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "5b044cba-cfa3-1116-7902-11df8c227c3a",
+          "name": "블랙 아이스",
+          "tags": [
+            "D-50",
+            "Texture",
+            "Y6S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/59ef9e6e_a473_3a57_b473_cd74fb19cb1e.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 451,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-74c87981-7620-4786-899f-c418486016e3",
+    "tradeId": "74c87981-7620-4786-899f-c418486016e3",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:02:35.628Z",
+    "lastModifiedAt": "2025-08-03T01:29:04.949Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "65bb4aeb-9c65-1ff9-c87a-f26cfab4c676",
+          "name": "블랙 아이스",
+          "tags": [
+            "SR-25",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e55766dd_a4c8_7f75_1fe1_da37616c80ab.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 15,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-ec0460f1-436a-4dab-bfce-f1fbbeade169",
+    "tradeId": "ec0460f1-436a-4dab-bfce-f1fbbeade169",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-31T14:28:30.470Z",
+    "lastModifiedAt": "2025-08-01T20:22:41.809Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "54718e5c-4c22-4206-82f0-24cca08b1253",
+          "name": "블랙 아이스",
+          "tags": [
+            "FMG-9",
+            "Texture",
+            "W_SMG_FMG9",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_indium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dec817de_3b09_659d_736a_d857e1d3d5aa.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 25,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 25,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-8c495b96-5e3f-4cc7-9cc6-9a787bbf7f6c",
+    "tradeId": "8c495b96-5e3f-4cc7-9cc6-9a787bbf7f6c",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T11:12:48.124Z",
+    "lastModifiedAt": "2025-08-01T17:37:32.799Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "8e228819-e92d-7040-7639-95f8a3a5326d",
+          "name": "블랙 아이스",
+          "tags": [
+            "MP5SD",
+            "Texture",
+            "Y6S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2df9f3ba_e0f5_1e64_8c1e_071df6da3014.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 350,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 376,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-36d84eca-3fa1-432b-b3a8-a8f208fe283e",
+    "tradeId": "36d84eca-3fa1-432b-b3a8-a8f208fe283e",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T08:54:40.914Z",
+    "lastModifiedAt": "2025-08-01T12:55:41.148Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "8b4f7a27-e6b2-b783-58ed-39f1e3712ef3",
+          "name": "스플릿 스쿼터",
+          "tags": [
+            "Character.Y4S1.MOZZIE",
+            "Y6S4",
+            "Y6S4_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aba751c8_cdfd_6e42_9db6_50adb218f636.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 20,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b1f39d7d-56c1-449d-949e-5855e0d3135c",
+    "tradeId": "b1f39d7d-56c1-449d-949e-5855e0d3135c",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-08-01T08:58:28.451Z",
+    "lastModifiedAt": "2025-08-01T12:24:14.128Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "7996feba-ffb1-43b5-9fb2-f6db73a60bc3",
+          "name": "귀족",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y2S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/7d1ac7c6_6077_4584_b55a_377d5d67d48c.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 45,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-aaa1cccd-3077-4432-bd14-3bd58b4e9cb1",
+    "tradeId": "aaa1cccd-3077-4432-bd14-3bd58b4e9cb1",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:40:38.921Z",
+    "lastModifiedAt": "2025-08-01T11:12:18.367Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "f52192fa-4a90-4158-bf14-2b04f8702412",
+          "name": "블랙 아이스",
+          "tags": [
+            "MP5",
+            "Texture",
+            "W_SMG_MP5MLI",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dbf67519_736b_f3ba_9986_7b673c9eed16.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 450,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-70a7805f-b30f-4a5f-89ce-64ec91e4d4a2",
+    "tradeId": "70a7805f-b30f-4a5f-89ce-64ec91e4d4a2",
+    "state": "Created",
+    "category": "Sell",
+    "createdAt": "2025-08-01T08:56:13.780Z",
+    "lastModifiedAt": "2025-08-01T08:56:13.890Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "26815375-c0d2-416d-80fe-1e1b0d349ddf",
+          "name": "주자",
+          "tags": [
+            "Character.Legacy.CASTLE",
+            "Y4S2",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e9e8e649_2e3a_9bb8_05db_ce0ff4b8dbbc.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-79db7d93-6312-4f0a-b316-8f55cf74c9bc",
+    "tradeId": "79db7d93-6312-4f0a-b316-8f55cf74c9bc",
+    "state": "Created",
+    "category": "Sell",
+    "createdAt": "2025-08-01T08:55:06.492Z",
+    "lastModifiedAt": "2025-08-01T08:55:06.602Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "ea43dc95-8762-4f5f-a0d0-9dbd9777ae08",
+          "name": "블랙 아이스",
+          "tags": [
+            "MP7",
+            "Texture",
+            "W_SMG_MP7",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/af8db713_22d9_51f4_9342_5cdc2a7c9ca6.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-8cf5d96b-50ba-4ffe-8a86-7a487dfb0783",
+    "tradeId": "8cf5d96b-50ba-4ffe-8a86-7a487dfb0783",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:26:42.311Z",
+    "lastModifiedAt": "2025-08-01T04:54:46.737Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "177d2e48-244b-33fa-d9d5-49504bfee213",
+          "name": "완벽한 훈련사",
+          "tags": [
+            "Character.Legacy.CAVEIRA",
+            "Y6S4",
+            "Y6S4_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_operatorcardportrait"
+          ],
+          "type": "OperatorCardPortrait",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/396e11c5_a5cf_87e5_06f3_53b381a43456.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 30,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-433ac6f9-1f00-424b-806c-059ef28c7493",
+    "tradeId": "433ac6f9-1f00-424b-806c-059ef28c7493",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:31:56.131Z",
+    "lastModifiedAt": "2025-08-01T00:31:56.383Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "310b7363-e053-4448-8bb6-244ad034f581",
+          "name": "월광",
+          "tags": [
+            "Character.Y3S1.FINKA",
+            "Y3S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6f927898_69f8_4fc4_1bd5_cd21fdc8c7e4.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 100,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 100,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-53d9d3c4-c046-4c4c-89b7-a305da9be322",
+    "tradeId": "53d9d3c4-c046-4c4c-89b7-a305da9be322",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:22:20.262Z",
+    "lastModifiedAt": "2025-08-01T00:22:20.516Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "8e9d2b04-d2e4-45ce-9dba-89f7e200654b",
+          "name": "VALKYRIE 군번줄",
+          "tags": [
+            "Y3S2",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/41899382_8632_f4fa_98ef_2982702d59e0.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-91753513-4d32-46d1-aec2-0f147cbe86a9",
+    "tradeId": "91753513-4d32-46d1-aec2-0f147cbe86a9",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:21:38.500Z",
+    "lastModifiedAt": "2025-08-01T00:21:38.803Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "7e86d232-93a9-4eba-b974-0a4ca92edd61",
+          "name": "THERMITE 군번줄",
+          "tags": [
+            "Y3S1",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/675f0369_cda3_0119_2bda_0267784ee8b5.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-cc7bc1ab-364b-4ca7-b55e-67275c0f9cab",
+    "tradeId": "cc7bc1ab-364b-4ca7-b55e-67275c0f9cab",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:00:15.714Z",
+    "lastModifiedAt": "2025-08-01T00:21:23.749Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "53f565aa-bd5a-40cc-967d-d637ae257164",
+          "name": "블랙 아이스",
+          "tags": [
+            "PMM",
+            "Texture",
+            "W_SA_MakarovPMM",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_indium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c82d153b_a320_1842_02e6_8c9d5e3d5782.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 20,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-5b64093c-4146-46e1-9aa8-030b418a7d00",
+    "tradeId": "5b64093c-4146-46e1-9aa8-030b418a7d00",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:21:06.328Z",
+    "lastModifiedAt": "2025-08-01T00:21:06.575Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2a70eda5-4c41-4477-bc29-9a1747a71e03",
+          "name": "FROST 군번줄",
+          "tags": [
+            "Y3S1",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8dc46cf9_138d_39be_ef5c_511fd2bfed60.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 12,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 12,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-8a9931e0-c7e5-4923-9be9-169f98abae83",
+    "tradeId": "8a9931e0-c7e5-4923-9be9-169f98abae83",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:20:35.561Z",
+    "lastModifiedAt": "2025-08-01T00:20:35.829Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e47ee971-7812-4675-9760-852757fd5868",
+          "name": "CASTLE 군번줄",
+          "tags": [
+            "Y3S3",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9a0b69d6_a6c8_5816_ed20_2056341b1414.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-0f8499b3-248e-4d66-a231-f9aaadc4b633",
+    "tradeId": "0f8499b3-248e-4d66-a231-f9aaadc4b633",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:11:29.211Z",
+    "lastModifiedAt": "2025-08-01T00:11:29.432Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "f5c5b2c9-c1ff-2fa2-e2d6-274384acb60c",
+          "name": "수상한 물질",
+          "tags": [
+            "Pattern",
+            "Universal",
+            "Y6S3",
+            "doktorcurse",
+            "lc_barium-edition-v1",
+            "lc_barium-edition-v2",
+            "lc_barium-edition-v3",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weaponattachmentskinset_universal"
+          ],
+          "type": "WeaponAttachmentSkinSet",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0d2865e9_6c23_d7c6_f88e_53abd7c5db60.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 45,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 45,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b0ac3661-fa9c-44d7-b905-1708123d8065",
+    "tradeId": "b0ac3661-fa9c-44d7-b905-1708123d8065",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-08-01T00:01:54.347Z",
+    "lastModifiedAt": "2025-08-01T00:01:54.629Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "20605d1d-67ed-b5c2-e7ba-2fa89203baea",
+          "name": "블랙 아이스",
+          "tags": [
+            "LMG-E",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_indium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0e5c7c24_4747_3421_9f36_eea7dc946705.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 15,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-051cdd82-1efd-4e56-ad89-3606f6423627",
+    "tradeId": "051cdd82-1efd-4e56-ad89-3606f6423627",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-31T14:41:51.803Z",
+    "lastModifiedAt": "2025-07-31T22:26:12.974Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "670e6adf-5e05-770d-5dd1-8da67af36483",
+          "name": "블랙 아이스",
+          "tags": [
+            "BEARING_9",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8af2cf8d_9a8b_faf5_dd74_3e3c2a00f8fa.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 35,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 35,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-194bcbc1-90d8-49e5-a72c-eb5e8be1090a",
+    "tradeId": "194bcbc1-90d8-49e5-a72c-eb5e8be1090a",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-21T19:29:14.147Z",
+    "lastModifiedAt": "2025-07-31T17:36:52.559Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "eede4fcf-6f38-417c-abc2-4a5a522d936b",
+          "name": "블랙 아이스",
+          "tags": [
+            "556XI",
+            "Texture",
+            "W_AR_Sig556",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8eda9c03_90bd_76ae_4546_b0d3a6b877c7.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 55,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 55,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-4e488e29-f886-41fe-b8de-eac3e0f018d3",
+    "tradeId": "4e488e29-f886-41fe-b8de-eac3e0f018d3",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-14T10:42:30.140Z",
+    "lastModifiedAt": "2025-07-31T04:06:42.251Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "7fd42a9b-3bfe-43f4-9e82-f8abd6fd4e36",
+          "name": "블랙 아이스",
+          "tags": [
+            "417",
+            "Texture",
+            "W_AR_HK417",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3d999493_9bbf_726e_0caa_2166d2eae265.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 60,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 65,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-775c37e7-bba7-4de3-be29-4a168acdd4cd",
+    "tradeId": "775c37e7-bba7-4de3-be29-4a168acdd4cd",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:39:23.992Z",
+    "lastModifiedAt": "2025-07-31T01:36:06.826Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a7ffafc8-5fcf-4360-972b-d4086a0f29d3",
+          "name": "블랙 아이스",
+          "tags": [
+            "Texture",
+            "UMP45",
+            "W_SMG_UMP45",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6b38cf01_a021_ab90_ac03_61a10ab9571c.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 55,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 55,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-4f68f040-30f3-4333-910c-a046e6a2ee4b",
+    "tradeId": "4f68f040-30f3-4333-910c-a046e6a2ee4b",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-23T19:24:19.861Z",
+    "lastModifiedAt": "2025-07-27T19:07:12.855Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a4813329-8417-f43d-322a-48c705896522",
+          "name": "생혈의 꽃",
+          "tags": [
+            "Pattern",
+            "Universal",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weaponattachmentskinset_universal"
+          ],
+          "type": "WeaponAttachmentSkinSet",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b845ae42_1620_4f32_37f8_3941ebc5a7aa.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 700,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-8dfdb8bd-d053-436c-9efb-1851452d5786",
+    "tradeId": "8dfdb8bd-d053-436c-9efb-1851452d5786",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-25T16:49:45.319Z",
+    "lastModifiedAt": "2025-07-25T16:49:45.597Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "830989ea-6016-49f1-8c44-cda067c6014c",
+          "name": "리지 톱",
+          "tags": [
+            "Character.Y4S3.GOYO",
+            "Y7S1",
+            "lc_classic-edition-v20",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d03cac12_ac53_381c_3597_3643ff3d670b.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 80,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 80,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-6a06ed4e-e7dd-47ab-b7b4-b78e91e3ccb4",
+    "tradeId": "6a06ed4e-e7dd-47ab-b7b4-b78e91e3ccb4",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-23T22:09:11.217Z",
+    "lastModifiedAt": "2025-07-24T16:34:57.954Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a8b9eb92-60a7-5685-161a-9b64efb14758",
+          "name": "TANUKI의 부",
+          "tags": [
+            "Character.Y6S1.FLORES",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/04ff07e8_5b18_850c_2274_a9b6db7a761e.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-8c79d0e4-f403-4608-b422-9931c8859517",
+    "tradeId": "8c79d0e4-f403-4608-b422-9931c8859517",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-23T22:08:46.194Z",
+    "lastModifiedAt": "2025-07-24T16:34:45.645Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "778e4458-0a7e-c182-9636-df5f4a67cc62",
+          "name": "TANUKI의 부",
+          "tags": [
+            "Character.Y6S1.FLORES",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1ddb0dc8_c917_d79a_91a0_f9674ae6232f.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 28,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2ee95c77-4fc0-4465-bf6b-72c0ae7950e5",
+    "tradeId": "2ee95c77-4fc0-4465-bf6b-72c0ae7950e5",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-24T00:32:26.307Z",
+    "lastModifiedAt": "2025-07-24T14:14:28.864Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "c473c3d7-ace5-e8bc-857a-8b0cc918b182",
+          "name": "경청",
+          "tags": [
+            "Character.Y6S4.THORN",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_cobalt-edition-v0",
+            "lc_nickel-edition-v0",
+            "lc_nickel-edition-v1",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "snowball",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/55d1d074_b3c1_80d9_a076_e9a393dff4e3.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 22,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-0ce95ed0-0489-4421-a10a-1482b56f915e",
+    "tradeId": "0ce95ed0-0489-4421-a10a-1482b56f915e",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T22:34:50.663Z",
+    "lastModifiedAt": "2025-07-23T23:23:52.806Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e733b2f8-f90f-4db6-a209-709101fc17a6",
+          "name": "깔끔한 비행",
+          "tags": [
+            "Character.Y4S1.GRIDLOCK",
+            "Y5S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_fluorine-edition-v0",
+            "mafia",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f1d99e31_66d0_663c_b86f_b87606640119.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 12,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-523ae129-c526-4167-a698-dfdfafa2a89a",
+    "tradeId": "523ae129-c526-4167-a698-dfdfafa2a89a",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T23:06:43.134Z",
+    "lastModifiedAt": "2025-07-23T23:06:43.356Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "ec58a463-5764-53a2-a0b6-5cb5bf0cff35",
+          "name": "안정적인 숨결",
+          "tags": [
+            "Character.Legacy.SLEDGE",
+            "Y6S4",
+            "Y6S4_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/c4fa731b_8bdd_f534_e6e1_97cc1ba94b05.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 20,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-432c9216-4bdd-4363-8049-e1bc05c09ebb",
+    "tradeId": "432c9216-4bdd-4363-8049-e1bc05c09ebb",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T23:00:44.819Z",
+    "lastModifiedAt": "2025-07-23T23:00:45.055Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "faf2904e-b1d7-63d1-3153-0fdf9c5dc5f4",
+          "name": "왕가의 보호",
+          "tags": [
+            "Character.Y8S3.RAM",
+            "Y8S3",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f7218cf1_db3e_752c_65ba_e6106e1146d6.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-62cfae57-aeeb-4554-9c07-3fb19c4a17a9",
+    "tradeId": "62cfae57-aeeb-4554-9c07-3fb19c4a17a9",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T22:50:28.289Z",
+    "lastModifiedAt": "2025-07-23T22:50:28.541Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2ddf8e79-a115-48a9-b3fd-4f3ddaf744d7",
+          "name": "훈련 기간",
+          "tags": [
+            "Character.Y2S1.MIRA",
+            "Y3S4",
+            "lc_winter18-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/91574299_cc88_b743_e8e5_2b8b978b3871.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 49,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 49,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-c5713280-5894-44d6-8849-cb68a7c297e2",
+    "tradeId": "c5713280-5894-44d6-8849-cb68a7c297e2",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T14:36:02.075Z",
+    "lastModifiedAt": "2025-07-23T22:33:16.944Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "96a4d3f2-93fb-3618-4a63-ddd273eb413a",
+          "name": "블랙 아이스",
+          "tags": [
+            "SC3000K",
+            "Texture",
+            "Y6S4",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/de2b996d_10b8_2c4a_b3da_05a8d763a716.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 55,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 60,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-ea2f2255-61b3-4a4e-98dd-4e19a691098b",
+    "tradeId": "ea2f2255-61b3-4a4e-98dd-4e19a691098b",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T22:19:52.013Z",
+    "lastModifiedAt": "2025-07-23T22:19:52.252Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "5b743ec6-31d6-8c25-0c7b-f995aab31f32",
+          "name": "DEADLY OMEN",
+          "tags": [
+            "Character.Y4S3.GOYO",
+            "Y9S1",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a39fe410_9849_c6b9_e685_c7be69a71e24.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 30,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-fb8a0192-e27b-4f8b-a2e3-db9b02290293",
+    "tradeId": "fb8a0192-e27b-4f8b-a2e3-db9b02290293",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T22:02:39.503Z",
+    "lastModifiedAt": "2025-07-23T22:02:39.787Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "da9dc41d-49dc-4c64-be94-799a5e061613",
+          "name": "프리랜서",
+          "tags": [
+            "Character.Y6S1.FLORES",
+            "Y6S1",
+            "acq_battlepass",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/fd40d196_c5e7_580b_bb5c_e6fde2a7347c.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 30,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-ca66c38f-fda6-4f31-94fa-f2921e9f5fd1",
+    "tradeId": "ca66c38f-fda6-4f31-94fa-f2921e9f5fd1",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T21:44:35.009Z",
+    "lastModifiedAt": "2025-07-23T21:44:35.273Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "8c9cd3cc-f0cd-4cbd-a154-78853638d486",
+          "name": "CAVEIRA 트로피 2020",
+          "tags": [
+            "Character.Legacy.CAVEIRA",
+            "Y4S4",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6d651f47_53bd_63b2_71a7_6ce2385b8876.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-23e186f5-f71f-4dd5-8ff3-80ca34f9d4f4",
+    "tradeId": "23e186f5-f71f-4dd5-8ff3-80ca34f9d4f4",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-07-21T19:30:22.009Z",
+    "lastModifiedAt": "2025-07-23T21:43:51.681Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a57fffe8-3393-3709-7122-4efaa0d17a49",
+          "name": "블랙 아이스",
+          "tags": [
+            "SMG-12",
+            "Texture",
+            "Y6S4",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a57e464d_d74b_2e04_094a_f4b19f74c4e0.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 160,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-f94e4cca-00f6-4bfe-8549-0711b12f583e",
+    "tradeId": "f94e4cca-00f6-4bfe-8549-0711b12f583e",
+    "state": "Created",
+    "category": "Sell",
+    "createdAt": "2025-07-05T15:49:38.124Z",
+    "lastModifiedAt": "2025-07-23T19:23:49.264Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "0e9f6308-b770-4ec2-9109-626e883c8c97",
+          "name": "타자",
+          "tags": [
+            "Character.Legacy.CASTLE",
+            "Y4S2",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/312d98e8_ef29_5631_2c0c_1e58cb9e31da.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-1c26be30-a2ed-4413-b847-04a981c5ce36",
+    "tradeId": "1c26be30-a2ed-4413-b847-04a981c5ce36",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-23T12:32:53.620Z",
+    "lastModifiedAt": "2025-07-23T14:35:51.730Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "39618595-62c2-4435-b35d-a151fdb53a12",
+          "name": "컴퓨터 그리드 프로그램",
+          "tags": [
+            "Character.Y5S4.ARUNI",
+            "Y6S4",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4b3eb1c8_eafc_4b9f_952d_aa948c49e3c9.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 30,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-dcbf3c8e-6c46-4112-8664-2ff43e4756c6",
+    "tradeId": "dcbf3c8e-6c46-4112-8664-2ff43e4756c6",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-21T23:31:13.201Z",
+    "lastModifiedAt": "2025-07-22T17:20:22.764Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "c96adc40-5f8a-418b-8f41-b6cc91e2806f",
+          "name": "컴퓨터 그리드 프레임워크",
+          "tags": [
+            "Character.Y5S4.ARUNI",
+            "Y6S4",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/abd1e32a_d90c_907f_0172_6edf7ae2de0a.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 30,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b0cb4ff2-c3d1-4fd5-bfbb-b8e9c7681443",
+    "tradeId": "b0cb4ff2-c3d1-4fd5-bfbb-b8e9c7681443",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-07-18T16:32:46.041Z",
+    "lastModifiedAt": "2025-07-21T23:29:18.867Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "670e6adf-5e05-770d-5dd1-8da67af36483",
+          "name": "블랙 아이스",
+          "tags": [
+            "BEARING_9",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8af2cf8d_9a8b_faf5_dd74_3e3c2a00f8fa.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 35,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2fa48570-3471-433b-ac80-1ff4a10400cb",
+    "tradeId": "2fa48570-3471-433b-ac80-1ff4a10400cb",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-21T19:26:52.187Z",
+    "lastModifiedAt": "2025-07-21T19:29:07.781Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "4a0e9c4c-79fa-451c-8659-f94f75e69ec3",
+          "name": "블랙 아이스",
+          "tags": [
+            "LFP586",
+            "Texture",
+            "W_SA_Classic586",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_indium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4d06e30b_a3ad_efcd_5177_d2f51fa9a8a1.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 25,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-a786fb51-855d-4f1a-8626-71585080ddd7",
+    "tradeId": "a786fb51-855d-4f1a-8626-71585080ddd7",
+    "state": "Failed",
+    "category": "Sell",
+    "createdAt": "2025-07-21T16:20:33.826Z",
+    "lastModifiedAt": "2025-07-21T19:25:41.842Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "ea4f0a24-bbb4-46b3-8fdb-adccefc80b2d",
+          "name": "SHADOW LEGACY",
+          "tags": [
+            "Character.Y4S1.GRIDLOCK",
+            "Y5S3",
+            "rarity_uncommon",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7f827f98_608d_dbb3_26a5_4779a5406f80.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b435f625-c2c5-4452-98d1-3e1f49c6b5ac",
+    "tradeId": "b435f625-c2c5-4452-98d1-3e1f49c6b5ac",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-13T10:05:50.031Z",
+    "lastModifiedAt": "2025-07-20T17:41:42.817Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "f7857f90-872b-bb0a-8a9f-27773693235f",
+          "name": "블랙 아이스",
+          "tags": [
+            "C7E",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a77b6ec9_b44b_59fd_02bc_51a73adcd0d5.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 25,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 25,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-fd66738d-dc7d-4683-8f27-ad5912568970",
+    "tradeId": "fd66738d-dc7d-4683-8f27-ad5912568970",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-18T17:59:28.302Z",
+    "lastModifiedAt": "2025-07-18T18:04:32.160Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "686f2663-40dd-e51b-e0f7-3c4c15630626",
+          "name": "전기 엔지니어",
+          "tags": [
+            "Character.Legacy.IQ",
+            "Y6S3",
+            "Y6S3_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/da86b95b_5402_2490_3258_1e6a51edec96.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 45,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 45,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-5dfc0a4c-ba59-406f-be1d-2fcb5edaedc0",
+    "tradeId": "5dfc0a4c-ba59-406f-be1d-2fcb5edaedc0",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-18T16:37:06.885Z",
+    "lastModifiedAt": "2025-07-18T16:37:07.178Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "38b32953-9043-4663-83c1-6eb545afe09b",
+          "name": "소노라의 한기",
+          "tags": [
+            "Character.Legacy.IQ",
+            "Y3S2",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_summer18-edition-v0",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/42274eae_6c94_ad86_6168_2e432a43f1de.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 12,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 12,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-f7841b6e-5940-4eda-bf5b-8d133bd40430",
+    "tradeId": "f7841b6e-5940-4eda-bf5b-8d133bd40430",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:38:55.171Z",
+    "lastModifiedAt": "2025-07-18T16:37:02.850Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "7ec73c26-72b7-4ea1-bdd5-7eb70b2fdb4f",
+          "name": "블랙 아이스",
+          "tags": [
+            "M870",
+            "Texture",
+            "W_SG_RemingtonM870",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/398e9dcd_9111_7fab_5578_cf4091eff398.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 25,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-320df40b-77ca-4ea2-86af-322fd6f83702",
+    "tradeId": "320df40b-77ca-4ea2-86af-322fd6f83702",
+    "state": "Failed",
+    "category": "Sell",
+    "createdAt": "2025-07-18T16:35:36.968Z",
+    "lastModifiedAt": "2025-07-18T16:35:44.926Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "44d0f70c-7402-8c31-537f-5a6f9360d287",
+          "name": "불타는 RYU",
+          "tags": [
+            "Character.Legacy.ASH",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/75811212_39b3_c329_25c5_3e23a8a35f2d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b5803f8e-8595-435e-b693-10b2b9c12ab3",
+    "tradeId": "b5803f8e-8595-435e-b693-10b2b9c12ab3",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:36:53.890Z",
+    "lastModifiedAt": "2025-07-14T13:03:34.211Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "54718e5c-4c22-4206-82f0-24cca08b1253",
+          "name": "블랙 아이스",
+          "tags": [
+            "FMG-9",
+            "Texture",
+            "W_SMG_FMG9",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_indium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dec817de_3b09_659d_736a_d857e1d3d5aa.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 20,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-df4cf11c-1da7-49e6-afb4-4b54818f8e45",
+    "tradeId": "df4cf11c-1da7-49e6-afb4-4b54818f8e45",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-12T15:09:07.302Z",
+    "lastModifiedAt": "2025-07-14T04:27:52.800Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "f52192fa-4a90-4158-bf14-2b04f8702412",
+          "name": "블랙 아이스",
+          "tags": [
+            "MP5",
+            "Texture",
+            "W_SMG_MP5MLI",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dbf67519_736b_f3ba_9986_7b673c9eed16.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 1350,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-484f9bff-af2c-4d5c-b8b7-65f259a9dcf3",
+    "tradeId": "484f9bff-af2c-4d5c-b8b7-65f259a9dcf3",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-13T10:05:26.857Z",
+    "lastModifiedAt": "2025-07-13T20:55:33.282Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "3493ed8b-58bd-283a-43cf-ffed88e99d93",
+          "name": "블랙 아이스",
+          "tags": [
+            "M249_SAW",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1795a9a6_fa09_4cec_b9ee_2d6e67386bdb.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 15,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-c34ca8cc-edd0-4acf-bb18-597ecc5d9001",
+    "tradeId": "c34ca8cc-edd0-4acf-bb18-597ecc5d9001",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-11T21:04:33.054Z",
+    "lastModifiedAt": "2025-07-12T03:40:32.971Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "49a15b6e-365b-4c3a-9dc8-4d04c9df9804",
+          "name": "애스콧",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y2S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/a7ef742e_e0a4_6c21_fac2_902de1bf57d0.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 27,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2af056bf-b132-45a2-808e-31cecc28d9ba",
+    "tradeId": "2af056bf-b132-45a2-808e-31cecc28d9ba",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-11T23:39:47.902Z",
+    "lastModifiedAt": "2025-07-12T00:21:40.244Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "529af40f-e556-48e5-0271-d0e65611025b",
+          "name": "맹렬한 녹색",
+          "tags": [
+            "3DSkin",
+            "MP7",
+            "Y8S3",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/78591478_bc05_f37f_f67e_c03d1fa2875d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 29,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-38438bee-ab35-45a1-8481-1f3290345a5d",
+    "tradeId": "38438bee-ab35-45a1-8481-1f3290345a5d",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-11T23:39:16.441Z",
+    "lastModifiedAt": "2025-07-11T23:42:40.415Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "97af387b-9f82-1953-62ed-74c8e03c7bff",
+          "name": "구조성 비늘",
+          "tags": [
+            "SMG-12",
+            "Texture",
+            "Y8S3",
+            "acq_battlepass",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3f1bf746_49f3_01da_e477_2894d0bef05d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 29,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b2a79762-006d-4972-979d-85c026de8ce8",
+    "tradeId": "b2a79762-006d-4972-979d-85c026de8ce8",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T22:30:29.206Z",
+    "lastModifiedAt": "2025-07-11T22:52:15.569Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e8dbbb8d-fd46-4efc-8461-202d7be24049",
+          "name": "책임자",
+          "tags": [
+            "Character.Legacy.CASTLE",
+            "Y6S1",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5471082d_6212_151d_9b10_adf223fecfcc.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 35,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-59ae43b7-960f-4688-88fd-4267fbf42b1f",
+    "tradeId": "59ae43b7-960f-4688-88fd-4267fbf42b1f",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T22:21:19.777Z",
+    "lastModifiedAt": "2025-07-11T22:24:45.730Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "12763092-0133-4a81-afb0-4469a4cf2509",
+          "name": "미끄러움 경고판",
+          "tags": [
+            "Y5S2",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b8a8989c_61d9_1e49_4397_f5b3226ab6ef.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-85a152a5-e43d-4f63-981b-28513b6030e0",
+    "tradeId": "85a152a5-e43d-4f63-981b-28513b6030e0",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:59:05.567Z",
+    "lastModifiedAt": "2025-07-11T22:14:51.422Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "eae90cf6-3d27-4216-997e-371a8a8ca05b",
+          "name": "상자 머리",
+          "tags": [
+            "Y5S3",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0e4c8594_4289_18c7_e446_7a3429680138.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-7c53b218-df81-48b1-ba25-deeba994b55f",
+    "tradeId": "7c53b218-df81-48b1-ba25-deeba994b55f",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T22:11:29.076Z",
+    "lastModifiedAt": "2025-07-11T22:11:29.304Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2b5d22fc-96fa-7586-c697-93c90161a915",
+          "name": "트레커 모자",
+          "tags": [
+            "Character.Y3S3.MAVERICK",
+            "Y7S4",
+            "Y7S4_Battlepass",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1e4b7cd3_7007_72f9_7ad2_4fc527aaae78.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b64e2de3-7529-489b-b7b5-720e72df07f6",
+    "tradeId": "b64e2de3-7529-489b-b7b5-720e72df07f6",
+    "state": "Failed",
+    "category": "Sell",
+    "createdAt": "2025-07-11T21:05:55.678Z",
+    "lastModifiedAt": "2025-07-11T21:54:02.629Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "7996feba-ffb1-43b5-9fb2-f6db73a60bc3",
+          "name": "귀족",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y2S4",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/7d1ac7c6_6077_4584_b55a_377d5d67d48c.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-d234ade5-d8d3-49f1-998f-92c55393d141",
+    "tradeId": "d234ade5-d8d3-49f1-998f-92c55393d141",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:34:37.586Z",
+    "lastModifiedAt": "2025-07-11T21:34:49.099Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "79b4b29b-a245-49ce-89a0-b20972f53227",
+          "name": "비공식 은폐",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y6S1",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/4584a14e_c3ef_3c4b_ad7f_a8f4f8ac1683.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 12,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b8b07ce7-b9cb-46ee-b55e-88f240f7678a",
+    "tradeId": "b8b07ce7-b9cb-46ee-b55e-88f240f7678a",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:34:09.193Z",
+    "lastModifiedAt": "2025-07-11T21:34:09.445Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "c76b1ce2-0cd0-88af-6716-0e05bd8885ea",
+          "name": "선임 전투원",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y9S1",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/399aebbf_d1e9_47df_8ac8_b94ff8503de0.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-ff4bcdfd-1a90-4d1b-8035-26e140715970",
+    "tradeId": "ff4bcdfd-1a90-4d1b-8035-26e140715970",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:33:54.310Z",
+    "lastModifiedAt": "2025-07-11T21:34:07.153Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "544959a4-d089-a47f-f50f-e649313a7261",
+          "name": "선임 전투원",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y9S1",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_operatorcardportrait"
+          ],
+          "type": "OperatorCardPortrait",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a033fd20_de30_f25f_c798_17646e617d42.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-757881a9-84af-4acd-8685-2d4825f6c0c0",
+    "tradeId": "757881a9-84af-4acd-8685-2d4825f6c0c0",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-11T21:32:00.303Z",
+    "lastModifiedAt": "2025-07-11T21:32:00.606Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "03f5e692-c100-4b95-bee1-3cb63b79bc58",
+          "name": "명확한 시야",
+          "tags": [
+            "Character.Legacy.BLACKBEARD",
+            "Y6S1",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/5c3ed908_9622_b34c_1384_7ee43aeadde4.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-770e1453-43ea-4d5c-b877-e50ee4ed5ce0",
+    "tradeId": "770e1453-43ea-4d5c-b877-e50ee4ed5ce0",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-10T21:27:47.716Z",
+    "lastModifiedAt": "2025-07-11T09:54:46.957Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "66b2164d-fa42-d260-6a4a-67bd660c1580",
+          "name": "제국 갈릭",
+          "tags": [
+            "Character.Y3S1.LION",
+            "Y8S1",
+            "Y8S1_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/91a3ca3e_7a46_ad1a_a777_2ac7c49da27b.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 35,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-bca218bf-0cd1-47ea-aaf9-c66ef3587a1d",
+    "tradeId": "bca218bf-0cd1-47ea-aaf9-c66ef3587a1d",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-10T21:20:24.380Z",
+    "lastModifiedAt": "2025-07-11T07:11:00.168Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "0bf6aba6-6964-5a03-938b-e9fd75efed60",
+          "name": "블랙 아이스",
+          "tags": [
+            "ALDA_556",
+            "Texture",
+            "Y6S4",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7c04b261_f739_374f_73de_eda7157ab753.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 30,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 33,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2df5c47e-3a58-4740-ba5b-0183fe66f9fd",
+    "tradeId": "2df5c47e-3a58-4740-ba5b-0183fe66f9fd",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-10T21:11:12.609Z",
+    "lastModifiedAt": "2025-07-11T01:02:44.285Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "14dff447-964c-476e-a3d3-450828084ffa",
+          "name": "군단 100인 대장",
+          "tags": [
+            "Character.Legacy.ASH",
+            "Y8S1",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/fcdc73ae_cd22_c105_3fb7_9d29e6cd1391.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 25,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-c7b10888-a2ab-4ff3-a22a-dd0c2668a9c6",
+    "tradeId": "c7b10888-a2ab-4ff3-a22a-dd0c2668a9c6",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-10T21:16:25.446Z",
+    "lastModifiedAt": "2025-07-10T23:35:42.745Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a1700397-6482-6f0d-0bc9-4b81b7bc97cf",
+          "name": "테마 비니",
+          "tags": [
+            "Character.Y2S4.DOKKAEBI",
+            "Y7S1",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f7cb8b7a_6d3f_7b2c_dbf3_b9fb17aef354.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 33,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-df5824e6-426d-42fd-b5ed-2cdc25ee462c",
+    "tradeId": "df5824e6-426d-42fd-b5ed-2cdc25ee462c",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-10T21:12:23.366Z",
+    "lastModifiedAt": "2025-07-10T21:12:24.410Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "1bb8dc7a-d9ef-440c-abe4-b4cbec9822da",
+          "name": "태평한 유명 인사",
+          "tags": [
+            "Character.Y2S4.DOKKAEBI",
+            "Y5S4",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/fdedaed0_bebf_cbe9_e566_c5f76376f5f3.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 85,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 85,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-7fd74ea4-3c92-48f4-b0dc-910baf7d2b91",
+    "tradeId": "7fd74ea4-3c92-48f4-b0dc-910baf7d2b91",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-26T13:28:06.931Z",
+    "lastModifiedAt": "2025-07-10T17:06:25.050Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "0c0b71e3-ef32-d466-7635-fffbfdeb974b",
+          "name": "블랙 아이스",
+          "tags": [
+            "GONNE-6",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_indium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8450d0bb_80d6_360e_0f89_306ed04c4ff3.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 15,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-5c3e9f58-1700-4cf2-a2be-06a0bd0100df",
+    "tradeId": "5c3e9f58-1700-4cf2-a2be-06a0bd0100df",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-05T15:50:32.655Z",
+    "lastModifiedAt": "2025-07-07T08:06:30.994Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "cf678a30-4b5d-01ef-95a2-2076c9a99283",
+          "name": "변화하는 색감",
+          "tags": [
+            "Animated",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f137b0d2_0f44_f738_a275_147343f3b7a3.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 23,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-c1866910-6924-4f2a-89c2-421b4a2534d7",
+    "tradeId": "c1866910-6924-4f2a-89c2-421b4a2534d7",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-05T15:46:12.187Z",
+    "lastModifiedAt": "2025-07-06T10:34:16.397Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "55f74c49-a7d6-0fea-77b3-96651a29615a",
+          "name": "지극히 평범한",
+          "tags": [
+            "Character.Legacy.FROST",
+            "Y6S2",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/53ccf471_80aa_92c2_e330_f4258e5350e3.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 80,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 80,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-e707e3ec-4785-4983-ab0e-2d002b60de61",
+    "tradeId": "e707e3ec-4785-4983-ab0e-2d002b60de61",
+    "state": "Failed",
+    "category": "Sell",
+    "createdAt": "2025-07-06T00:58:11.765Z",
+    "lastModifiedAt": "2025-07-06T00:58:20.681Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "e3c5f6cf-b6c9-4df0-b14a-a0f8fd72fad0",
+          "name": "블랙 아이스",
+          "tags": [
+            "F2",
+            "Texture",
+            "W_AR_FAMASG2",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_yttrium-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f843c6b1_ba62_dc85_9392_a708bd22815d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-92cb6f45-874d-458a-a8dd-9c700aadd872",
+    "tradeId": "92cb6f45-874d-458a-a8dd-9c700aadd872",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-05T15:45:57.144Z",
+    "lastModifiedAt": "2025-07-05T18:10:50.747Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2b51e100-45e9-112b-9940-6dea90286f8c",
+          "name": "여유",
+          "tags": [
+            "Character.Legacy.FROST",
+            "Y6S2",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6c782ce1_2f12_a5ce_3e59_a97db4f42828.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 40,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 40,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-3e8ddfae-64c4-4294-9bad-340375531c12",
+    "tradeId": "3e8ddfae-64c4-4294-9bad-340375531c12",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-05T15:50:20.984Z",
+    "lastModifiedAt": "2025-07-05T17:43:32.910Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "54944e9d-3b63-4751-9caf-db7487343dd6",
+          "name": "변화하는 색조",
+          "tags": [
+            "Animated",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_charm",
+            "type_weapon_charms_universal"
+          ],
+          "type": "Charm",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/294c3f93_e3e5_eb2d_fd3a_882055542ab8.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 23,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-02d4200f-c5d3-4c8d-b714-5714203d6da0",
+    "tradeId": "02d4200f-c5d3-4c8d-b714-5714203d6da0",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-05T15:48:43.826Z",
+    "lastModifiedAt": "2025-07-05T16:46:27.414Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "4a594de7-37b8-7afb-89a9-75c03de6879d",
+          "name": "로리카 세그멘타타",
+          "tags": [
+            "Character.Y3S1.LION",
+            "Y8S1",
+            "Y8S1_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/70bac5c5_7e88_efff_a84f_d039abb0cefc.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 65,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-83591639-7ea4-4418-a707-4c96a9b6a151",
+    "tradeId": "83591639-7ea4-4418-a707-4c96a9b6a151",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-05T15:51:42.532Z",
+    "lastModifiedAt": "2025-07-05T16:12:17.836Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "4743b324-935a-37f1-0fa1-72c13acf1a78",
+          "name": "로리카 세그멘타타",
+          "tags": [
+            "Character.Y3S1.LION",
+            "Y8S1",
+            "Y8S1_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_operatorcardportrait"
+          ],
+          "type": "OperatorCardPortrait",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/faa3eff2_aaca_51f4_ef99_61b571163bc4.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 25,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-31f7b2e4-c89f-4b38-ae55-524c9de5f6f9",
+    "tradeId": "31f7b2e4-c89f-4b38-ae55-524c9de5f6f9",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-04T23:07:46.107Z",
+    "lastModifiedAt": "2025-07-04T23:30:53.034Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "ad6ab21e-1209-98de-d2eb-f60a6b1d07a4",
+          "name": "DEADLY OMEN",
+          "tags": [
+            "Character.Y5S2.MELUSI",
+            "Y9S1",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/eeead245_ea17_efaf_0449_95d7cb1f1645.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 12,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-0f430a91-1ac3-4eeb-b1ca-8ad26b35e7e2",
+    "tradeId": "0f430a91-1ac3-4eeb-b1ca-8ad26b35e7e2",
+    "state": "Succeeded",
+    "category": "Sell",
+    "createdAt": "2025-07-04T23:23:44.865Z",
+    "lastModifiedAt": "2025-07-04T23:24:07.314Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "c4a2ae63-5bdf-a3f5-d47f-d611ad3d1eef",
+          "name": "옥뱀",
+          "tags": [
+            "Character.Legacy.SMOKE",
+            "Y7S1",
+            "Y7S1_Battlepass",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_legendary",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/87e8c9ea_11c7_f8c5_4d89_4fa33dde2f18.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 89,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": null,
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-e2972909-9c7e-4bbf-b410-b15719155427",
+    "tradeId": "e2972909-9c7e-4bbf-b410-b15719155427",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-04T23:04:34.707Z",
+    "lastModifiedAt": "2025-07-04T23:06:36.964Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "1e215ff8-f938-4cdd-bdf6-a7135687da08",
+          "name": "대장장이 임무",
+          "tags": [
+            "Character.Y5S2.MELUSI",
+            "Y5S3",
+            "acq_battlepass",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bdb1d641_0e28_0e15_dea6_63aeb198a7b0.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 15,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-6a37a825-ecce-446b-b848-c3185c66aeca",
+    "tradeId": "6a37a825-ecce-446b-b848-c3185c66aeca",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-04T23:05:58.339Z",
+    "lastModifiedAt": "2025-07-04T23:05:58.585Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "941b7aa1-af08-43ba-af57-28699468cf32",
+          "name": "STEEL WAVE",
+          "tags": [
+            "Character.Y5S2.MELUSI",
+            "Y5S2",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "rarity_uncommon",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ab4f7926_c2ae_152d_5f15_58c3d69fed82.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-eb6ff9fc-fa91-4241-a6c3-03b3b4067b0c",
+    "tradeId": "eb6ff9fc-fa91-4241-a6c3-03b3b4067b0c",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-07-04T23:05:15.441Z",
+    "lastModifiedAt": "2025-07-04T23:05:50.581Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "33528ab3-6968-466b-a639-c2f13266994a",
+          "name": "STEEL WAVE",
+          "tags": [
+            "Character.Y5S2.MELUSI",
+            "Y5S2",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "rarity_uncommon",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/18be687f_9f3e_ba78_de88_19d5e33b5f6d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 12,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-958a13d9-8846-4561-ba4c-d48241c649db",
+    "tradeId": "958a13d9-8846-4561-ba4c-d48241c649db",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-06-26T13:27:50.563Z",
+    "lastModifiedAt": "2025-07-04T23:05:44.976Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "2ad3ac8f-e0b2-418b-b61e-a9f4cb359f90",
+          "name": "블랙 아이스",
+          "tags": [
+            "P90",
+            "Texture",
+            "W_SMG_P90",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b0b5d7c0_7053_54ee_f501_c3b00d3bbc4b.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-1417cbbb-d958-486f-a1ff-4634f98f247a",
+    "tradeId": "1417cbbb-d958-486f-a1ff-4634f98f247a",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-06-26T13:28:51.330Z",
+    "lastModifiedAt": "2025-07-04T23:05:40.712Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a7ffafc8-5fcf-4360-972b-d4086a0f29d3",
+          "name": "블랙 아이스",
+          "tags": [
+            "Texture",
+            "UMP45",
+            "W_SMG_UMP45",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6b38cf01_a021_ab90_ac03_61a10ab9571c.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-57c42000-cda6-4752-85b3-bdf1b3494a69",
+    "tradeId": "57c42000-cda6-4752-85b3-bdf1b3494a69",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-29T22:49:19.550Z",
+    "lastModifiedAt": "2025-06-29T22:54:36.071Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a8ab8458-f4b1-2e30-ca5f-1e522dac1f14",
+          "name": "갑각 케이싱",
+          "tags": [
+            "Character.Y7S3.GRIM",
+            "Y7S3",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform",
+            "type_uniforms"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c72b9c12_e4db_e4b8_f68e_71e89445491b.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 15,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-3611956e-d36f-4a9c-b3ed-2d59b4c66e8b",
+    "tradeId": "3611956e-d36f-4a9c-b3ed-2d59b4c66e8b",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-29T22:48:23.404Z",
+    "lastModifiedAt": "2025-06-29T22:50:04.127Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "6eafb5ef-cbab-a2cc-7171-97bbe5e43f21",
+          "name": "갑각 케이싱",
+          "tags": [
+            "Character.Y7S3.GRIM",
+            "Y7S3",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear",
+            "type_headgears"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/af2ab284_57fe_584d_61fb_f4dca0319f5f.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 12,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-25f007eb-b001-4aff-af46-8d8676402482",
+    "tradeId": "25f007eb-b001-4aff-af46-8d8676402482",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-29T22:48:39.854Z",
+    "lastModifiedAt": "2025-06-29T22:48:40.106Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "cd1233c3-f7e2-06a8-f44d-43536439bcb0",
+          "name": "DEADLY OMEN",
+          "tags": [
+            "Character.Y7S3.GRIM",
+            "Y9S1",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/93054ff0_843f_eb6f_6178_3d513c700734.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 25,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 25,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-288c726b-d5f6-4712-93e1-1380cefaf2c2",
+    "tradeId": "288c726b-d5f6-4712-93e1-1380cefaf2c2",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-29T22:48:06.014Z",
+    "lastModifiedAt": "2025-06-29T22:48:06.249Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "33fac82c-abac-d426-9321-47b87ecbf089",
+          "name": "갑각 케이싱",
+          "tags": [
+            "Character.Y7S3.GRIM",
+            "Y7S3",
+            "acq_battlepass",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_operatorcardportrait"
+          ],
+          "type": "OperatorCardPortrait",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8bdb3dd1_4266_c515_a6a5_08a032964022.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 20,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 20,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-2d79e517-381c-42bf-942f-cbe642bf9492",
+    "tradeId": "2d79e517-381c-42bf-942f-cbe642bf9492",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-29T22:47:37.327Z",
+    "lastModifiedAt": "2025-06-29T22:47:37.559Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "67ffe7bc-f9d1-94fc-aa24-66c155293839",
+          "name": "굴절 모자",
+          "tags": [
+            "Character.Y7S3.GRIM",
+            "Y9S4",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characterheadgear"
+          ],
+          "type": "CharacterHeadgear",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/03a8da03_05e5_5bf5_fbfc_a578fccfd77d.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-b2e3ce4d-580b-4adc-b0f6-22044d71a06c",
+    "tradeId": "b2e3ce4d-580b-4adc-b0f6-22044d71a06c",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-29T22:47:24.658Z",
+    "lastModifiedAt": "2025-06-29T22:47:25.015Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "fd8e7a2c-818e-9d8b-7dc6-c1503f684e0c",
+          "name": "반짝이는 옷",
+          "tags": [
+            "Character.Y7S3.GRIM",
+            "Y9S4",
+            "acq_battlepass",
+            "rarity_rare",
+            "sku_china",
+            "sku_ww",
+            "type_characteruniform"
+          ],
+          "type": "CharacterUniform",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/621da796_28e2_3c6a_5c2d_252d09564984.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 10,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 10,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-4c934565-176e-4d36-8e4d-c8057a22b92c",
+    "tradeId": "4c934565-176e-4d36-8e4d-c8057a22b92c",
+    "state": "Succeeded",
+    "category": "Buy",
+    "createdAt": "2025-06-26T06:24:23.354Z",
+    "lastModifiedAt": "2025-06-26T14:55:06.610Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "c23aa5b3-a5b7-2b14-080c-002063a1d050",
+          "name": "프로디지",
+          "tags": [
+            "Character.Legacy.DOC",
+            "Y7S3",
+            "doktorcurse",
+            "lc_barium-edition-v2",
+            "lc_barium-edition-v3",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_operatorcardportrait"
+          ],
+          "type": "OperatorCardPortrait",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aac192e0_3e3f_7dfc_70ab_fca68bd21a58.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": {
+      "price": 50,
+      "__typename": "PaymentOption"
+    },
+    "paymentProposal": {
+      "price": 55,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-8c8a8de3-d689-4c63-b7e4-a609902b4d31",
+    "tradeId": "8c8a8de3-d689-4c63-b7e4-a609902b4d31",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-06-25T23:49:41.802Z",
+    "lastModifiedAt": "2025-06-26T05:25:34.036Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a3654efc-7bbb-4778-9d50-260bad68c3e9",
+          "name": "블랙 아이스",
+          "tags": [
+            "9x19VSN",
+            "Texture",
+            "W_SMG_Vityaz_SN",
+            "Y1S1",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/cdeae36d_b98f_ea5f_4c4a_b6ba6c582c88.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 25,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-4f0e2cc7-76ab-4252-8f0e-b7c9ff9512d1",
+    "tradeId": "4f0e2cc7-76ab-4252-8f0e-b7c9ff9512d1",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-06-25T23:44:40.365Z",
+    "lastModifiedAt": "2025-06-26T05:25:25.862Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "d7a48c53-cd17-374d-dd99-a84ab465bcb5",
+          "name": "블랙 아이스",
+          "tags": [
+            "ARX200",
+            "Texture",
+            "Y6S4",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/716e6037_fa21_37e1_fa3d_fd261b4f3f17.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 15,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  },
+  {
+    "id": "0d2ae42d-4c27-4cb7-af6c-2099062302bb-5aa24457-02f5-4b14-8b67-b4eb3f7cde5c-fb373bbc-1d34-4b98-a1ac-982f2fa0e35e",
+    "tradeId": "fb373bbc-1d34-4b98-a1ac-982f2fa0e35e",
+    "state": "Failed",
+    "category": "Buy",
+    "createdAt": "2025-06-25T23:19:55.821Z",
+    "lastModifiedAt": "2025-06-26T05:25:17.845Z",
+    "tradeItems": [
+      {
+        "item": {
+          "itemId": "a7ffafc8-5fcf-4360-972b-d4086a0f29d3",
+          "name": "블랙 아이스",
+          "tags": [
+            "Texture",
+            "UMP45",
+            "W_SMG_UMP45",
+            "Y1S1",
+            "lc_boron-edition-v0",
+            "lc_boron_completionist-edition-v0",
+            "lc_classic-edition-v0",
+            "lc_classic-edition-v20",
+            "lc_classic-edition-v21",
+            "lc_classic-edition-v22",
+            "lc_classic-edition-v23",
+            "lc_classic-edition-v24",
+            "lc_classic-edition-v25",
+            "lc_platinum-edition-v0",
+            "rarity_superrare",
+            "sku_china",
+            "sku_ww",
+            "type_weapon_skins",
+            "type_weaponskin"
+          ],
+          "type": "WeaponSkin",
+          "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6b38cf01_a021_ab90_ac03_61a10ab9571c.png",
+          "__typename": "SecondaryStoreItem"
+        },
+        "__typename": "TradeItem"
+      }
+    ],
+    "payment": null,
+    "paymentProposal": {
+      "price": 60,
+      "__typename": "PaymentProposal"
+    },
+    "__typename": "Trade"
+  }
+]

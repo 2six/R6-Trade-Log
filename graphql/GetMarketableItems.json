@@ -1,0 +1,14 @@
+{
+  "operationName": "GetMarketableItems",
+  "variables": {
+    "spaceId": "0d2ae42d-4c27-4cb7-af6c-2099062302bb",
+    "limit": 50,
+    "offset": 0,
+    "sortBy": {
+      "field": "LAST_TRANSACTION_PRICE",
+      "direction": "DESC",
+      "paymentItemId": "9ef71262-515b-46e8-b9a8-b6b6ad456c67"
+    }
+  },
+  "query": "query GetMarketableItems($spaceId: String!, $limit: Int!, $offset: Int, $sortBy: MarketableItemSort) {\n  game(spaceId: $spaceId) {\n    marketableItems(\n      limit: $limit\n      offset: $offset\n      sortBy: $sortBy\n      withMarketData: true\n    ) {\n      nodes {\n        ...MarketableItemFragment\n        __typename\n      }\n      totalCount\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment MarketableItemFragment on MarketableItem {\n  item {\n    itemId\n    name\n    type\n    tags\n    assetUrl\n    __typename\n  }\n  marketData {\n    ...MarketDataFragment\n    __typename\n  }\n  __typename\n}\n\nfragment MarketDataFragment on MarketableItemMarketData {\n  sellStats {\n    lowestPrice\n    activeCount\n    __typename\n  }\n  buyStats {\n    highestPrice\n    activeCount\n    __typename\n  }\n  __typename\n}"
+}

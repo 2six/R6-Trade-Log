@@ -1,0 +1,9 @@
+{
+  "operationName": "GetTransactions",
+  "variables": {
+    "spaceId": "0d2ae42d-4c27-4cb7-af6c-2099062302bb",
+    "limit": 100,
+    "offset": 0
+  },
+  "query": "query GetTransactions($spaceId: String!, $limit: Int!, $offset: Int) {\n  game(spaceId: $spaceId) {\n    id\n    viewer {\n      meta {\n        id\n        trades(\n          limit: $limit\n          offset: $offset\n          filterBy: {states: [Created, Succeeded, Failed]}\n          sortBy: {field: LAST_MODIFIED_AT}\n        ) {\n          nodes {\n            ...TradeFragment\n            __typename\n          }\n          totalCount\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment TradeFragment on Trade {\n  id\n  tradeId\n  state\n  category\n  createdAt\n  lastModifiedAt\n  tradeItems {\n    item {\n      itemId\n      name\n      tags\n      type\n      assetUrl\n      __typename\n    }\n    __typename\n  }\n  payment {\n    price\n    __typename\n  }\n  paymentProposal {\n    price\n    __typename\n  }\n  __typename\n}"
+}

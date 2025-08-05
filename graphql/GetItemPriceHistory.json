@@ -1,0 +1,9 @@
+{
+  "operationName": "GetItemPriceHistory",
+  "variables": {
+    "spaceId": "0d2ae42d-4c27-4cb7-af6c-2099062302bb",
+    "itemId": "{item_id}",
+    "paymentItemId": "9ef71262-515b-46e8-b9a8-b6b6ad456c67"
+  },
+  "query": "query GetItemPriceHistory($spaceId: String!, $itemId: String!, $paymentItemId: String!) {\n  game(spaceId: $spaceId) {\n    marketableItem(itemId: $itemId) {\n      priceHistory(paymentItemId: $paymentItemId) {\n        date\n        lowestPrice\n        averagePrice\n        highestPrice\n        itemsCount\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}"
+}

@@ -1,4 +1,4 @@
-# analyze_market.py (최종 완성본: 모든 오류 수정)
+# analyze_market.py (통합 시장 분석 최종본)
 
 import json
 import os
@@ -72,18 +72,11 @@ def fetch_top_market_items(session, headers, graphql_query):
 
         for item in items:
             try:
-                market_data = item.get("marketData")
+                market_data = item.get("marketData", {})
                 if not market_data: continue
 
-                # --- 'NoneType' 오류 방지를 위한 안전장치 강화 ---
-                sell_stats_list = market_data.get("sellStats")
-                buy_stats_list = market_data.get("buyStats")
-
-                if not sell_stats_list or not buy_stats_list: continue # 판매 또는 구매 주문이 없으면 건너뛰기
-
-                sell_stats = sell_stats_list[0]
-                buy_stats = buy_stats_list[0]
-                # -----------------------------------------------
+                sell_stats = market_data.get("sellStats", [{}])[0]
+                buy_stats = market_data.get("buyStats", [{}])[0]
                 
                 price = sell_stats.get("lowestPrice")
                 sell_orders = sell_stats.get("activeCount", 0)
@@ -93,7 +86,7 @@ def fetch_top_market_items(session, headers, graphql_query):
                     candidate_items.append(item)
                     if len(candidate_items) >= TARGET_ITEM_COUNT:
                         break
-            except (IndexError, TypeError, AttributeError):
+            except (IndexError, TypeError):
                 continue
         
         offset += len(items)
@@ -137,6 +130,7 @@ def analyze_items_deep_dive(session, headers, items_to_analyze):
                 price_history = history_data.get("priceHistory", [])
                 if not price_history: continue
 
+                # 7일, 14일 평균가 계산
                 today = datetime.now(timezone.utc).date()
                 recent_prices_7d = [h['averagePrice'] for h in price_history if (today - datetime.fromisoformat(h['date']).date()).days < 7]
                 recent_prices_14d = [h['averagePrice'] for h in price_history if (today - datetime.fromisoformat(h['date']).date()).days < 14]
@@ -147,28 +141,19 @@ def analyze_items_deep_dive(session, headers, items_to_analyze):
                 original_item_id = payloads[i]["variables"]["itemId"]
                 original_item = item_map[original_item_id]
                 market_data = original_item.get("marketData", {})
-                
-                # --- 'NoneType' 오류 방지를 위한 안전장치 강화 ---
-                current_price = None
-                if market_data.get("sellStats"):
-                    current_price = market_data["sellStats"][0].get("lowestPrice")
-                
-                highest_buy_order = None
-                if market_data.get("buyStats"):
-                    highest_buy_order = market_data["buyStats"][0].get("highestPrice")
+                current_price = market_data.get("sellStats", [{}])[0].get("lowestPrice")
+                highest_buy_order = market_data.get("buyStats", [{}])[0].get("highestPrice")
                 
                 if not current_price or not highest_buy_order: continue
-                # -----------------------------------------------
-
+                
+                # 전략 1: '존버' 가치 분석
                 undervalue_7d = ((avg_7d - current_price) / avg_7d) * 100 if avg_7d > 0 else 0
                 undervalue_14d = ((avg_14d - current_price) / avg_14d) * 100 if avg_14d > 0 else 0
 
-                # --- 스프레드 계산 오류 수정 ---
+                # 전략 2: '스프레드' 차익 분석
                 spread = highest_buy_order - current_price
-                # ---------------------------
-
-                is_spread_profitable_7d = (highest_buy_order * 0.9 - current_price) > (avg_7d * SPREAD_PROFIT_RATIO) if avg_7d > 0 else False
-                is_spread_profitable_14d = (highest_buy_order * 0.9 - current_price) > (avg_14d * SPREAD_PROFIT_RATIO) if avg_14d > 0 else False
+                is_spread_profitable_7d = spread > (avg_7d * SPREAD_PROFIT_RATIO) if avg_7d > 0 else False
+                is_spread_profitable_14d = spread > (avg_14d * SPREAD_PROFIT_RATIO) if avg_14d > 0 else False
 
                 analysis_results.append({
                     "name": original_item.get("item", {}).get("name"),
@@ -181,14 +166,15 @@ def analyze_items_deep_dive(session, headers, items_to_analyze):
                     "current_highest_buy_order": highest_buy_order,
                     "avg_price_7d": round(avg_7d, 2),
                     "avg_price_14d": round(avg_14d, 2),
-                    "sell_orders": market_data.get("sellStats")[0].get("activeCount"),
-                    "buy_orders": market_data.get("buyStats")[0].get("activeCount"),
+                    "sell_orders": market_data.get("sellStats", [{}])[0].get("activeCount"),
+                    "buy_orders": market_data.get("buyStats", [{}])[0].get("activeCount"),
                     "item_id": original_item_id,
                     "asset_url": original_item.get("item", {}).get("assetUrl")
                 })
         except Exception as e:
             print(f"  - 일괄 처리 중 오류 발생: {e}")
 
+    # 최종 정렬: 스프레드 수익 가능성 > 7일 저평가 순으로 정렬
     analysis_results.sort(key=lambda x: (x["is_spread_profitable_7d"], x["undervalue_ratio_7d(%)"]), reverse=True)
     return analysis_results
 
