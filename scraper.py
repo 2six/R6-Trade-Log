@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import undetected_chromedriver as uc
 from bs4 import BeautifulSoup
 import time
+import os # 환경 변수를 읽기 위해 os 모듈을 추가합니다.
 
 ITEMS_FILE = 'items.json'
 RESULTS_FILE = 'results.json'
@@ -53,15 +54,19 @@ def scrape_site():
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-gpu')
-        options.add_argument("--window-size=1920,1080")
-        options.add_argument("--disable-extensions")
-        options.add_argument("--proxy-server='direct://'")
-        options.add_argument("--proxy-bypass-list=*")
-        options.add_argument("--start-maximized")
-
+        
         # --- 여기가 핵심 수정 사항입니다 ---
-        # version_main=114 옵션을 제거하여, 설치된 크롬 버전을 자동으로 감지하도록 합니다.
-        driver = uc.Chrome(options=options)
+        # 1. 환경 변수에서 미리 설치된 드라이버의 경로를 읽어옵니다.
+        driver_path = os.getenv('CHROME_DRIVER_PATH')
+        
+        # 2. 드라이버를 직접 다운로드하는 대신, 지정된 경로의 드라이버를 사용합니다.
+        if driver_path:
+            print(f"Using pre-installed driver from: {driver_path}")
+            driver = uc.Chrome(driver_executable_path=driver_path, options=options)
+        else:
+            # 로컬 환경 등에서 실행될 경우 (환경 변수가 없을 때) 기존 방식대로 동작
+            print("CHROME_DRIVER_PATH not set. Falling back to auto-download.")
+            driver = uc.Chrome(options=options)
         # ------------------------------------
         
         print("Driver initialized successfully.")
