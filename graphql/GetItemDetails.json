@@ -1,0 +1,8 @@
+{
+  "operationName": "GetItemDetails",
+  "variables": {
+    "spaceId": "0d2ae42d-4c27-4cb7-af6c-2099062302bb",
+    "itemId": "{item_id}"
+  },
+  "query": "query GetItemDetails($spaceId: String!, $itemId: String!) {\n  game(spaceId: $spaceId) {\n    id\n    marketableItem(itemId: $itemId) {\n      id\n      item {\n        ...SecondaryStoreItemFragment\n        __typename\n      }\n      marketData {\n        ...MarketDataFragment\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment SecondaryStoreItemFragment on SecondaryStoreItem {\n  id\n  name\n  tags\n  type\n  __typename\n}\n\nfragment MarketDataFragment on MarketableItemMarketData {\n  id\n  sellStats {\n    lowestPrice\n    __typename\n  }\n  buyStats {\n    highestPrice\n    __typename\n  }\n  lastSoldAt {\n    price\n    __typename\n  }\n  __typename\n}"
+}
