@@ -1,0 +1,2972 @@
+[
+  {
+    "name": "기술 매트릭스",
+    "itemId": "ac94673b-9416-8ad4-c8cf-655a85fef24e",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e9ec9cb8_3a26_e8e6_feaa_5f33dd7b888b.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-21T13:53:01.997Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": 10,
+    "avgPrice_7d": 26.5,
+    "avgPrice_14d": 28.23,
+    "avgHighestPrice_7d": 44.83,
+    "avgHighestPrice_14d": 47.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 26.0,
+        "profitRatio(%)": 260.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 13.85,
+        "profitRatio(%)": 138.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 15.41,
+        "profitRatio(%)": 154.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "0c0b71e3-ef32-d466-7635-fffbfdeb974b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8450d0bb_80d6_360e_0f89_306ed04c4ff3.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-07-10T17:06:25.050Z",
+    "currentLowestSellPrice": 45,
+    "currentHighestBuyPrice": 18,
+    "avgPrice_7d": 32.33,
+    "avgPrice_14d": 34.92,
+    "avgHighestPrice_7d": 43.33,
+    "avgHighestPrice_14d": 48.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 25.5,
+        "profitRatio(%)": 170.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 14.1,
+        "profitRatio(%)": 94.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 16.43,
+        "profitRatio(%)": 109.54,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "소노라의 한기",
+    "itemId": "38b32953-9043-4663-83c1-6eb545afe09b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/42274eae_6c94_ad86_6168_2e432a43f1de.png",
+    "myBuyPrice": 12,
+    "buyDate": "2025-07-18T16:37:07.178Z",
+    "currentLowestSellPrice": 33,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 21.83,
+    "avgPrice_14d": 20.31,
+    "avgHighestPrice_7d": 29.5,
+    "avgHighestPrice_14d": 29.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 17.7,
+        "profitRatio(%)": 147.5,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 7.65,
+        "profitRatio(%)": 63.75,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 6.28,
+        "profitRatio(%)": 52.31,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "헐거운 우샨카",
+    "itemId": "b826dc32-6f5f-4004-80bb-27c079cbca41",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/26e4f5c9_0aea_2cfe_6075_b9ccaa975570.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-06-23T16:23:28.801Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": 10,
+    "avgPrice_7d": 29.33,
+    "avgPrice_14d": 33.0,
+    "avgHighestPrice_7d": 39.17,
+    "avgHighestPrice_14d": 45.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 21.0,
+        "profitRatio(%)": 140.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 11.4,
+        "profitRatio(%)": 76.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 14.7,
+        "profitRatio(%)": 98.0,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "디지털화된 밝기",
+    "itemId": "7275197d-9131-5031-7967-68bbc39e550d",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/03ac6d12_7cef_71ef_0fd2_2be1dc1b0d4c.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-23T03:14:16.128Z",
+    "currentLowestSellPrice": 25,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 120.67,
+    "avgPrice_14d": 65.23,
+    "avgHighestPrice_7d": 3861.67,
+    "avgHighestPrice_14d": 1798.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 12.5,
+        "profitRatio(%)": 125.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 98.6,
+        "profitRatio(%)": 986.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 48.71,
+        "profitRatio(%)": 487.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "상자 머리",
+    "itemId": "eae90cf6-3d27-4216-997e-371a8a8ca05b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0e4c8594_4289_18c7_e446_7a3429680138.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T22:14:51.422Z",
+    "currentLowestSellPrice": 25,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 18.17,
+    "avgPrice_14d": 17.23,
+    "avgHighestPrice_7d": 21.5,
+    "avgHighestPrice_14d": 22.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 12.5,
+        "profitRatio(%)": 125.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 6.35,
+        "profitRatio(%)": 63.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 5.51,
+        "profitRatio(%)": 55.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "54718e5c-4c22-4206-82f0-24cca08b1253",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dec817de_3b09_659d_736a_d857e1d3d5aa.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-08-01T20:22:41.809Z",
+    "currentLowestSellPrice": 60,
+    "currentHighestBuyPrice": 56,
+    "avgPrice_7d": 52.17,
+    "avgPrice_14d": 57.46,
+    "avgHighestPrice_7d": 67.83,
+    "avgHighestPrice_14d": 74.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 29.0,
+        "profitRatio(%)": 116.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 21.95,
+        "profitRatio(%)": 87.8,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 26.72,
+        "profitRatio(%)": 106.86,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "대장장이 임무",
+    "itemId": "1e215ff8-f938-4cdd-bdf6-a7135687da08",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bdb1d641_0e28_0e15_dea6_63aeb198a7b0.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-07-04T23:06:36.964Z",
+    "currentLowestSellPrice": 35,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 24.5,
+    "avgPrice_14d": 27.31,
+    "avgHighestPrice_7d": 36.67,
+    "avgHighestPrice_14d": 40.85,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 16.5,
+        "profitRatio(%)": 110.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 7.05,
+        "profitRatio(%)": 47.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 9.58,
+        "profitRatio(%)": 63.85,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "0bf6aba6-6964-5a03-938b-e9fd75efed60",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7c04b261_f739_374f_73de_eda7157ab753.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-07-11T07:11:00.168Z",
+    "currentLowestSellPrice": 70,
+    "currentHighestBuyPrice": 60,
+    "avgPrice_7d": 59.17,
+    "avgPrice_14d": 65.85,
+    "avgHighestPrice_7d": 80.83,
+    "avgHighestPrice_14d": 90.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 33.0,
+        "profitRatio(%)": 110.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 23.25,
+        "profitRatio(%)": 77.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 29.26,
+        "profitRatio(%)": 97.54,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "65bb4aeb-9c65-1ff9-c87a-f26cfab4c676",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e55766dd_a4c8_7f75_1fe1_da37616c80ab.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-08-03T01:29:04.949Z",
+    "currentLowestSellPrice": 35,
+    "currentHighestBuyPrice": 28,
+    "avgPrice_7d": 32.33,
+    "avgPrice_14d": 35.38,
+    "avgHighestPrice_7d": 41.83,
+    "avgHighestPrice_14d": 46.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 16.5,
+        "profitRatio(%)": 110.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 14.1,
+        "profitRatio(%)": 94.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 16.85,
+        "profitRatio(%)": 112.31,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "신문 배달원",
+    "itemId": "a882fcb5-7ef1-44c6-8055-23e4d7f5c349",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d8669b41_b6df_fcce_0b77_1a84991391f1.png",
+    "myBuyPrice": 23,
+    "buyDate": "2025-06-23T14:28:15.534Z",
+    "currentLowestSellPrice": 50,
+    "currentHighestBuyPrice": 15,
+    "avgPrice_7d": 32.17,
+    "avgPrice_14d": 37.31,
+    "avgHighestPrice_7d": 44.0,
+    "avgHighestPrice_14d": 49.92,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 22.0,
+        "profitRatio(%)": 95.65,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 5.95,
+        "profitRatio(%)": 25.87,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 10.58,
+        "profitRatio(%)": 45.99,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "프리랜서",
+    "itemId": "da9dc41d-49dc-4c64-be94-799a5e061613",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/fd40d196_c5e7_580b_bb5c_e6fde2a7347c.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-07-23T22:02:39.787Z",
+    "currentLowestSellPrice": 65,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 46.83,
+    "avgPrice_14d": 47.85,
+    "avgHighestPrice_7d": 66.83,
+    "avgHighestPrice_14d": 67.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 28.5,
+        "profitRatio(%)": 95.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 12.15,
+        "profitRatio(%)": 40.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 13.06,
+        "profitRatio(%)": 43.54,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "3493ed8b-58bd-283a-43cf-ffed88e99d93",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1795a9a6_fa09_4cec_b9ee_2d6e67386bdb.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-07-13T20:55:33.282Z",
+    "currentLowestSellPrice": 32,
+    "currentHighestBuyPrice": 19,
+    "avgPrice_7d": 26.83,
+    "avgPrice_14d": 28.62,
+    "avgHighestPrice_7d": 37.5,
+    "avgHighestPrice_14d": 38.85,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 13.8,
+        "profitRatio(%)": 92.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 9.15,
+        "profitRatio(%)": 61.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 10.75,
+        "profitRatio(%)": 71.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "어둠의 레이스",
+    "itemId": "096085f9-8793-3be4-89a3-a08e988dfd80",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/68494e7b_7b68_3edc_a919_71b425768c1c.png",
+    "myBuyPrice": 35,
+    "buyDate": "2025-06-23T07:04:48.494Z",
+    "currentLowestSellPrice": 70,
+    "currentHighestBuyPrice": 30,
+    "avgPrice_7d": 67.5,
+    "avgPrice_14d": 72.23,
+    "avgHighestPrice_7d": 90.0,
+    "avgHighestPrice_14d": 94.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 28.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 25.75,
+        "profitRatio(%)": 73.57,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 30.01,
+        "profitRatio(%)": 85.74,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "불타는 성전",
+    "itemId": "698142f5-1ff2-e260-24de-e292a0efdb4b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f6ddb773_a835_4a00_734c_b01e152ebcc6.png",
+    "myBuyPrice": 40,
+    "buyDate": "2025-06-23T17:01:29.100Z",
+    "currentLowestSellPrice": 80,
+    "currentHighestBuyPrice": 66,
+    "avgPrice_7d": 66.5,
+    "avgPrice_14d": 69.85,
+    "avgHighestPrice_7d": 87.33,
+    "avgHighestPrice_14d": 92.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 32.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 19.85,
+        "profitRatio(%)": 49.62,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 22.86,
+        "profitRatio(%)": 57.15,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "맵고 화끈함",
+    "itemId": "4e143eee-7b4c-f558-e3c7-ec0869458f80",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ae6bacfe_c483_d4d2_259a_bcd5835a2a16.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-06-23T23:03:34.304Z",
+    "currentLowestSellPrice": 50,
+    "currentHighestBuyPrice": 43,
+    "avgPrice_7d": 40.83,
+    "avgPrice_14d": 44.08,
+    "avgHighestPrice_7d": 57.5,
+    "avgHighestPrice_14d": 61.85,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 20.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 11.75,
+        "profitRatio(%)": 47.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 14.67,
+        "profitRatio(%)": 58.68,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "갑각 케이싱",
+    "itemId": "a8ab8458-f4b1-2e30-ca5f-1e522dac1f14",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c72b9c12_e4db_e4b8_f68e_71e89445491b.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-06-29T22:54:36.071Z",
+    "currentLowestSellPrice": 30,
+    "currentHighestBuyPrice": 10,
+    "avgPrice_7d": 22.83,
+    "avgPrice_14d": 24.15,
+    "avgHighestPrice_7d": 37.67,
+    "avgHighestPrice_14d": 39.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 12.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 5.55,
+        "profitRatio(%)": 37.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 6.74,
+        "profitRatio(%)": 44.92,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "DEADLY OMEN",
+    "itemId": "ad6ab21e-1209-98de-d2eb-f60a6b1d07a4",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/eeead245_ea17_efaf_0449_95d7cb1f1645.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-04T23:30:53.034Z",
+    "currentLowestSellPrice": 20,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 21.33,
+    "avgPrice_14d": 26.08,
+    "avgHighestPrice_7d": 25.5,
+    "avgHighestPrice_14d": 64.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 8.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 9.2,
+        "profitRatio(%)": 92.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 13.47,
+        "profitRatio(%)": 134.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "미끄러움 경고판",
+    "itemId": "12763092-0133-4a81-afb0-4469a4cf2509",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b8a8989c_61d9_1e49_4397_f5b3226ab6ef.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T22:24:45.730Z",
+    "currentLowestSellPrice": 20,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 21.33,
+    "avgPrice_14d": 20.54,
+    "avgHighestPrice_7d": 26.67,
+    "avgHighestPrice_14d": 27.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 8.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 9.2,
+        "profitRatio(%)": 92.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 8.48,
+        "profitRatio(%)": 84.85,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "4a0e9c4c-79fa-451c-8659-f94f75e69ec3",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4d06e30b_a3ad_efcd_5177_d2f51fa9a8a1.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-07-21T19:29:07.781Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 29.83,
+    "avgPrice_14d": 32.54,
+    "avgHighestPrice_7d": 42.5,
+    "avgHighestPrice_14d": 46.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 16.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 6.85,
+        "profitRatio(%)": 34.25,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 9.28,
+        "profitRatio(%)": 46.42,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "컴퓨터 그리드 프레임워크",
+    "itemId": "c96adc40-5f8a-418b-8f41-b6cc91e2806f",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/abd1e32a_d90c_907f_0172_6edf7ae2de0a.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-07-22T17:20:22.764Z",
+    "currentLowestSellPrice": 60,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 41.83,
+    "avgPrice_14d": 46.15,
+    "avgHighestPrice_7d": 61.17,
+    "avgHighestPrice_14d": 65.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 24.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 7.65,
+        "profitRatio(%)": 25.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 11.54,
+        "profitRatio(%)": 38.46,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "eede4fcf-6f38-417c-abc2-4a5a522d936b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8eda9c03_90bd_76ae_4546_b0d3a6b877c7.png",
+    "myBuyPrice": 55,
+    "buyDate": "2025-07-31T17:36:52.559Z",
+    "currentLowestSellPrice": 110,
+    "currentHighestBuyPrice": 95,
+    "avgPrice_7d": 93.33,
+    "avgPrice_14d": 99.46,
+    "avgHighestPrice_7d": 107.0,
+    "avgHighestPrice_14d": 118.46,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 44.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 29.0,
+        "profitRatio(%)": 52.73,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 34.52,
+        "profitRatio(%)": 62.76,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "20605d1d-67ed-b5c2-e7ba-2fa89203baea",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0e5c7c24_4747_3421_9f36_eea7dc946705.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-08-01T00:01:54.629Z",
+    "currentLowestSellPrice": 30,
+    "currentHighestBuyPrice": 15,
+    "avgPrice_7d": 27.0,
+    "avgPrice_14d": 29.62,
+    "avgHighestPrice_7d": 40.0,
+    "avgHighestPrice_14d": 41.92,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 12.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 9.3,
+        "profitRatio(%)": 62.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 11.65,
+        "profitRatio(%)": 77.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "53f565aa-bd5a-40cc-967d-d637ae257164",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c82d153b_a320_1842_02e6_8c9d5e3d5782.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-08-01T00:21:23.749Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": 31,
+    "avgPrice_7d": 30.0,
+    "avgPrice_14d": 32.15,
+    "avgHighestPrice_7d": 44.17,
+    "avgHighestPrice_14d": 47.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 16.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 7.0,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 8.94,
+        "profitRatio(%)": 44.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "완벽한 훈련사",
+    "itemId": "177d2e48-244b-33fa-d9d5-49504bfee213",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/396e11c5_a5cf_87e5_06f3_53b381a43456.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-08-01T04:54:46.737Z",
+    "currentLowestSellPrice": 60,
+    "currentHighestBuyPrice": 50,
+    "avgPrice_7d": 49.33,
+    "avgPrice_14d": 53.31,
+    "avgHighestPrice_7d": 66.67,
+    "avgHighestPrice_14d": 70.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 24.0,
+        "profitRatio(%)": 80.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 14.4,
+        "profitRatio(%)": 48.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 17.98,
+        "profitRatio(%)": 59.92,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "모세혈관의 잿빛",
+    "itemId": "a44c605d-b2cb-4ae6-9ac7-05ab38bd7cfb",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/93205444_084b_7eaa_f477_1f631e81c3f3.png",
+    "myBuyPrice": 40,
+    "buyDate": "2025-06-24T09:48:52.713Z",
+    "currentLowestSellPrice": 79,
+    "currentHighestBuyPrice": 65,
+    "avgPrice_7d": 62.5,
+    "avgPrice_14d": 69.31,
+    "avgHighestPrice_7d": 79.17,
+    "avgHighestPrice_14d": 88.46,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 31.1,
+        "profitRatio(%)": 77.75,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 16.25,
+        "profitRatio(%)": 40.62,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 22.38,
+        "profitRatio(%)": 55.94,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "여유",
+    "itemId": "2b51e100-45e9-112b-9940-6dea90286f8c",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6c782ce1_2f12_a5ce_3e59_a97db4f42828.png",
+    "myBuyPrice": 40,
+    "buyDate": "2025-07-05T18:10:50.747Z",
+    "currentLowestSellPrice": 78,
+    "currentHighestBuyPrice": 47,
+    "avgPrice_7d": 58.67,
+    "avgPrice_14d": 64.92,
+    "avgHighestPrice_7d": 76.67,
+    "avgHighestPrice_14d": 84.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 30.2,
+        "profitRatio(%)": 75.5,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 12.8,
+        "profitRatio(%)": 32.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 18.43,
+        "profitRatio(%)": 46.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "7fd42a9b-3bfe-43f4-9e82-f8abd6fd4e36",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3d999493_9bbf_726e_0caa_2166d2eae265.png",
+    "myBuyPrice": 60,
+    "buyDate": "2025-07-31T04:06:42.251Z",
+    "currentLowestSellPrice": 115,
+    "currentHighestBuyPrice": 75,
+    "avgPrice_7d": 97.67,
+    "avgPrice_14d": 108.85,
+    "avgHighestPrice_7d": 115.0,
+    "avgHighestPrice_14d": 133.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 43.5,
+        "profitRatio(%)": 72.5,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 27.9,
+        "profitRatio(%)": 46.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 37.96,
+        "profitRatio(%)": 63.27,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "책임자",
+    "itemId": "e8dbbb8d-fd46-4efc-8461-202d7be24049",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5471082d_6212_151d_9b10_adf223fecfcc.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-07-11T22:52:15.569Z",
+    "currentLowestSellPrice": 55,
+    "currentHighestBuyPrice": 50,
+    "avgPrice_7d": 54.67,
+    "avgPrice_14d": 57.92,
+    "avgHighestPrice_7d": 75.33,
+    "avgHighestPrice_14d": 77.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 19.5,
+        "profitRatio(%)": 65.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 19.2,
+        "profitRatio(%)": 64.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 22.13,
+        "profitRatio(%)": 73.77,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "a7ffafc8-5fcf-4360-972b-d4086a0f29d3",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6b38cf01_a021_ab90_ac03_61a10ab9571c.png",
+    "myBuyPrice": 55,
+    "buyDate": "2025-07-31T01:36:06.826Z",
+    "currentLowestSellPrice": 100,
+    "currentHighestBuyPrice": 95,
+    "avgPrice_7d": 97.17,
+    "avgPrice_14d": 104.92,
+    "avgHighestPrice_7d": 115.33,
+    "avgHighestPrice_14d": 127.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 35.0,
+        "profitRatio(%)": 63.64,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 32.45,
+        "profitRatio(%)": 59.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 39.43,
+        "profitRatio(%)": 71.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "지극히 평범한",
+    "itemId": "55f74c49-a7d6-0fea-77b3-96651a29615a",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/53ccf471_80aa_92c2_e330_f4258e5350e3.png",
+    "myBuyPrice": 80,
+    "buyDate": "2025-07-06T10:34:16.397Z",
+    "currentLowestSellPrice": 144,
+    "currentHighestBuyPrice": 120,
+    "avgPrice_7d": 112.0,
+    "avgPrice_14d": 125.15,
+    "avgHighestPrice_7d": 139.17,
+    "avgHighestPrice_14d": 155.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 49.6,
+        "profitRatio(%)": 62.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 20.8,
+        "profitRatio(%)": 26.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 32.64,
+        "profitRatio(%)": 40.8,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "명확한 시야",
+    "itemId": "03f5e692-c100-4b95-bee1-3cb63b79bc58",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/5c3ed908_9622_b34c_1384_7ee43aeadde4.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T21:32:00.606Z",
+    "currentLowestSellPrice": 18,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 13.5,
+    "avgPrice_14d": 14.0,
+    "avgHighestPrice_7d": 20.33,
+    "avgHighestPrice_14d": 20.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 6.2,
+        "profitRatio(%)": 62.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.15,
+        "profitRatio(%)": 21.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 2.6,
+        "profitRatio(%)": 26.0,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "선임 전투원",
+    "itemId": "544959a4-d089-a47f-f50f-e649313a7261",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a033fd20_de30_f25f_c798_17646e617d42.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T21:34:07.153Z",
+    "currentLowestSellPrice": 18,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 13.83,
+    "avgPrice_14d": 13.92,
+    "avgHighestPrice_7d": 20.83,
+    "avgHighestPrice_14d": 21.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 6.2,
+        "profitRatio(%)": 62.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.45,
+        "profitRatio(%)": 24.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 2.53,
+        "profitRatio(%)": 25.31,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "f7857f90-872b-bb0a-8a9f-27773693235f",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a77b6ec9_b44b_59fd_02bc_51a73adcd0d5.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-07-20T17:41:42.817Z",
+    "currentLowestSellPrice": 45,
+    "currentHighestBuyPrice": 29,
+    "avgPrice_7d": 43.17,
+    "avgPrice_14d": 47.77,
+    "avgHighestPrice_7d": 55.67,
+    "avgHighestPrice_14d": 62.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 15.5,
+        "profitRatio(%)": 62.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 13.85,
+        "profitRatio(%)": 55.4,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 17.99,
+        "profitRatio(%)": 71.97,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "96a4d3f2-93fb-3618-4a63-ddd273eb413a",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/de2b996d_10b8_2c4a_b3da_05a8d763a716.png",
+    "myBuyPrice": 55,
+    "buyDate": "2025-07-23T22:33:16.944Z",
+    "currentLowestSellPrice": 99,
+    "currentHighestBuyPrice": 50,
+    "avgPrice_7d": 80.67,
+    "avgPrice_14d": 85.62,
+    "avgHighestPrice_7d": 100.83,
+    "avgHighestPrice_14d": 109.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 34.1,
+        "profitRatio(%)": 62.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 17.6,
+        "profitRatio(%)": 32.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 22.05,
+        "profitRatio(%)": 40.1,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "날개의 사당",
+    "itemId": "1841d18c-d8ab-9ab2-03de-f7a7de121d85",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f1941c0_1e80_f003_46aa_62a9bd3728db.png",
+    "myBuyPrice": 17,
+    "buyDate": "2025-06-21T15:56:47.397Z",
+    "currentLowestSellPrice": 30,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 20.83,
+    "avgPrice_14d": 20.23,
+    "avgHighestPrice_7d": 33.67,
+    "avgHighestPrice_14d": 33.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 10.0,
+        "profitRatio(%)": 58.82,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 1.75,
+        "profitRatio(%)": 10.29,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 1.21,
+        "profitRatio(%)": 7.1,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "존속자",
+    "itemId": "f4f2d79c-bb13-4e01-a017-812335b81668",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0f01bfc4_bc9c_d803_04a4_d96570804cda.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-06-24T11:29:57.507Z",
+    "currentLowestSellPrice": 44,
+    "currentHighestBuyPrice": 35,
+    "avgPrice_7d": 34.83,
+    "avgPrice_14d": 37.0,
+    "avgHighestPrice_7d": 47.17,
+    "avgHighestPrice_14d": 50.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 14.6,
+        "profitRatio(%)": 58.4,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 6.35,
+        "profitRatio(%)": 25.4,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 8.3,
+        "profitRatio(%)": 33.2,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "670e6adf-5e05-770d-5dd1-8da67af36483",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8af2cf8d_9a8b_faf5_dd74_3e3c2a00f8fa.png",
+    "myBuyPrice": 35,
+    "buyDate": "2025-07-31T22:26:12.974Z",
+    "currentLowestSellPrice": 60,
+    "currentHighestBuyPrice": 40,
+    "avgPrice_7d": 61.5,
+    "avgPrice_14d": 65.54,
+    "avgHighestPrice_7d": 77.5,
+    "avgHighestPrice_14d": 85.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 19.0,
+        "profitRatio(%)": 54.29,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 20.35,
+        "profitRatio(%)": 58.14,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 23.98,
+        "profitRatio(%)": 68.53,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "라커룸",
+    "itemId": "0368aaf8-c0e4-ba24-ae58-8b4394004a63",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c714337c_49cd_8617_7c3f_7238d3146674.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-21T15:54:45.059Z",
+    "currentLowestSellPrice": 17,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 12.33,
+    "avgPrice_14d": 11.62,
+    "avgHighestPrice_7d": 21.0,
+    "avgHighestPrice_14d": 17.77,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 5.3,
+        "profitRatio(%)": 53.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 1.1,
+        "profitRatio(%)": 11.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 0.45,
+        "profitRatio(%)": 4.54,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "칠흑의 화신",
+    "itemId": "17b4b742-0809-980e-5d2e-5e05d768c4fd",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/db624723_76d7_0a1a_f82c_a88816ed4602.png",
+    "myBuyPrice": 50,
+    "buyDate": "2025-06-23T15:45:19.180Z",
+    "currentLowestSellPrice": 85,
+    "currentHighestBuyPrice": 70,
+    "avgPrice_7d": 76.83,
+    "avgPrice_14d": 81.15,
+    "avgHighestPrice_7d": 98.0,
+    "avgHighestPrice_14d": 102.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 26.5,
+        "profitRatio(%)": 53.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 19.15,
+        "profitRatio(%)": 38.3,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 23.04,
+        "profitRatio(%)": 46.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "비공식 은폐",
+    "itemId": "79b4b29b-a245-49ce-89a0-b20972f53227",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/4584a14e_c3ef_3c4b_ad7f_a8f4f8ac1683.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T21:34:49.099Z",
+    "currentLowestSellPrice": 17,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 15.33,
+    "avgPrice_14d": 89.38,
+    "avgHighestPrice_7d": 24.33,
+    "avgHighestPrice_14d": 1192.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 5.3,
+        "profitRatio(%)": 53.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 3.8,
+        "profitRatio(%)": 38.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 70.45,
+        "profitRatio(%)": 704.46,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "월광",
+    "itemId": "310b7363-e053-4448-8bb6-244ad034f581",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6f927898_69f8_4fc4_1bd5_cd21fdc8c7e4.png",
+    "myBuyPrice": 100,
+    "buyDate": "2025-08-01T00:31:56.383Z",
+    "currentLowestSellPrice": 170,
+    "currentHighestBuyPrice": 110,
+    "avgPrice_7d": 149.5,
+    "avgPrice_14d": 155.62,
+    "avgHighestPrice_7d": 176.17,
+    "avgHighestPrice_14d": 187.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 53.0,
+        "profitRatio(%)": 53.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 34.55,
+        "profitRatio(%)": 34.55,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 40.05,
+        "profitRatio(%)": 40.05,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "격리",
+    "itemId": "e42e281c-4702-4985-af4a-a77f382f1302",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/065f55d8_051d_75a3_6322_219e5b2c7d3f.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-08-04T08:22:45.122Z",
+    "currentLowestSellPrice": 17,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 13.83,
+    "avgPrice_14d": 15.23,
+    "avgHighestPrice_7d": 18.5,
+    "avgHighestPrice_14d": 20.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 5.3,
+        "profitRatio(%)": 53.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.45,
+        "profitRatio(%)": 24.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 3.71,
+        "profitRatio(%)": 37.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "스플릿 스쿼터",
+    "itemId": "8b4f7a27-e6b2-b783-58ed-39f1e3712ef3",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aba751c8_cdfd_6e42_9db6_50adb218f636.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-08-01T12:55:41.148Z",
+    "currentLowestSellPrice": 33,
+    "currentHighestBuyPrice": 10,
+    "avgPrice_7d": 30.17,
+    "avgPrice_14d": 33.38,
+    "avgHighestPrice_7d": 42.33,
+    "avgHighestPrice_14d": 46.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 9.7,
+        "profitRatio(%)": 48.5,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 7.15,
+        "profitRatio(%)": 35.75,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 10.05,
+        "profitRatio(%)": 50.23,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "데스페라도",
+    "itemId": "89702769-f577-34ae-d4e7-097689794f26",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/86def5c3_4105_b68c_942b_c3fe641f3d1d.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-06-21T15:16:31.085Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 31.17,
+    "avgPrice_14d": 32.92,
+    "avgHighestPrice_7d": 49.0,
+    "avgHighestPrice_14d": 49.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 11.0,
+        "profitRatio(%)": 44.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 3.05,
+        "profitRatio(%)": 12.2,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 4.63,
+        "profitRatio(%)": 18.52,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "경청",
+    "itemId": "c473c3d7-ace5-e8bc-857a-8b0cc918b182",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/55d1d074_b3c1_80d9_a076_e9a393dff4e3.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-07-24T14:14:28.864Z",
+    "currentLowestSellPrice": 32,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 29.67,
+    "avgPrice_14d": 32.0,
+    "avgHighestPrice_7d": 43.33,
+    "avgHighestPrice_14d": 44.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 8.8,
+        "profitRatio(%)": 44.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 6.7,
+        "profitRatio(%)": 33.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 8.8,
+        "profitRatio(%)": 44.0,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "테크노 요원",
+    "itemId": "402be8cd-ec6b-b432-0ba1-9e45564255e0",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/908b9164_0ee7_c225_c10b_1b97d7454741.png",
+    "myBuyPrice": 159,
+    "buyDate": "2025-08-05T09:08:10.203Z",
+    "currentLowestSellPrice": 248,
+    "currentHighestBuyPrice": 120,
+    "avgPrice_7d": 186.17,
+    "avgPrice_14d": 213.38,
+    "avgHighestPrice_7d": 231.17,
+    "avgHighestPrice_14d": 268.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 64.2,
+        "profitRatio(%)": 40.38,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 8.55,
+        "profitRatio(%)": 5.38,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 33.05,
+        "profitRatio(%)": 20.78,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "수상한 물질",
+    "itemId": "f5c5b2c9-c1ff-2fa2-e2d6-274384acb60c",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0d2865e9_6c23_d7c6_f88e_53abd7c5db60.png",
+    "myBuyPrice": 45,
+    "buyDate": "2025-08-01T00:11:29.432Z",
+    "currentLowestSellPrice": 70,
+    "currentHighestBuyPrice": 40,
+    "avgPrice_7d": 49.67,
+    "avgPrice_14d": 49.46,
+    "avgHighestPrice_7d": 74.0,
+    "avgHighestPrice_14d": 70.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 18.0,
+        "profitRatio(%)": 40.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -0.3,
+        "profitRatio(%)": -0.67,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -0.48,
+        "profitRatio(%)": -1.08,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "하수도 때",
+    "itemId": "bcec588b-4f92-cc9c-18b9-8bc7aa727b92",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2b8d8108_f97e_f5e9_a901_cbf40a8af2f9.png",
+    "myBuyPrice": 35,
+    "buyDate": "2025-06-21T14:20:56.315Z",
+    "currentLowestSellPrice": 54,
+    "currentHighestBuyPrice": 50,
+    "avgPrice_7d": 41.17,
+    "avgPrice_14d": 43.46,
+    "avgHighestPrice_7d": 53.83,
+    "avgHighestPrice_14d": 56.77,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 13.6,
+        "profitRatio(%)": 38.86,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.05,
+        "profitRatio(%)": 5.86,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 4.12,
+        "profitRatio(%)": 11.76,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "데스페라도",
+    "itemId": "ba39a096-9352-1bda-bc5e-30f300bbcbdc",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a5b675db_8419_bdb6_9a2c_d58c13dafffa.png",
+    "myBuyPrice": 35,
+    "buyDate": "2025-06-21T15:21:22.652Z",
+    "currentLowestSellPrice": 54,
+    "currentHighestBuyPrice": 17,
+    "avgPrice_7d": 41.83,
+    "avgPrice_14d": 45.31,
+    "avgHighestPrice_7d": 58.67,
+    "avgHighestPrice_14d": 64.77,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 13.6,
+        "profitRatio(%)": 38.86,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.65,
+        "profitRatio(%)": 7.57,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 5.78,
+        "profitRatio(%)": 16.51,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "으스스한 상황",
+    "itemId": "ce32e5df-dac7-9d1b-5578-b25f64f51e3a",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/af8267a6_9784_97cf_f6df_87a794b38541.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-06-24T12:54:41.046Z",
+    "currentLowestSellPrice": 38,
+    "currentHighestBuyPrice": 15,
+    "avgPrice_7d": 32.5,
+    "avgPrice_14d": 34.54,
+    "avgHighestPrice_7d": 46.0,
+    "avgHighestPrice_14d": 48.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 9.2,
+        "profitRatio(%)": 36.8,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 4.25,
+        "profitRatio(%)": 17.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 6.08,
+        "profitRatio(%)": 24.34,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "불타는 성전",
+    "itemId": "265985da-1dcc-dc2b-63ac-9692066398a6",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f5b9c304_f3e9_758a_2c67_9093aebe7f6c.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-06-23T16:27:30.311Z",
+    "currentLowestSellPrice": 45,
+    "currentHighestBuyPrice": 21,
+    "avgPrice_7d": 34.5,
+    "avgPrice_14d": 37.46,
+    "avgHighestPrice_7d": 48.33,
+    "avgHighestPrice_14d": 50.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 10.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 1.05,
+        "profitRatio(%)": 3.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 3.72,
+        "profitRatio(%)": 12.38,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "지쳐버린 친구",
+    "itemId": "6d81c2b5-418a-7bb4-a76d-3b02827e9caa",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8b34ace3_d783_fce2_08b5_383ccb2f8f51.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-06-23T21:07:29.918Z",
+    "currentLowestSellPrice": 30,
+    "currentHighestBuyPrice": 28,
+    "avgPrice_7d": 30.5,
+    "avgPrice_14d": 32.08,
+    "avgHighestPrice_7d": 49.17,
+    "avgHighestPrice_14d": 49.85,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 7.0,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 7.45,
+        "profitRatio(%)": 37.25,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 8.87,
+        "profitRatio(%)": 44.35,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "살가죽 슈트",
+    "itemId": "6cbfd48e-0d36-5e56-8061-ecd0cbf97aed",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/422d7651_6f40_5202_e724_9cdb16336b9d.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-06-24T09:05:58.328Z",
+    "currentLowestSellPrice": 45,
+    "currentHighestBuyPrice": 40,
+    "avgPrice_7d": 42.5,
+    "avgPrice_14d": 45.62,
+    "avgHighestPrice_7d": 56.67,
+    "avgHighestPrice_14d": 61.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 10.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 8.25,
+        "profitRatio(%)": 27.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 11.05,
+        "profitRatio(%)": 36.85,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "반짝이는 옷",
+    "itemId": "fd8e7a2c-818e-9d8b-7dc6-c1503f684e0c",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/621da796_28e2_3c6a_5c2d_252d09564984.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-29T22:47:25.015Z",
+    "currentLowestSellPrice": 15,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 11.5,
+    "avgPrice_14d": 11.46,
+    "avgHighestPrice_7d": 15.0,
+    "avgHighestPrice_14d": 15.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 3.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 0.35,
+        "profitRatio(%)": 3.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 0.32,
+        "profitRatio(%)": 3.15,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "갑각 케이싱",
+    "itemId": "6eafb5ef-cbab-a2cc-7171-97bbe5e43f21",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/af2ab284_57fe_584d_61fb_f4dca0319f5f.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-29T22:50:04.127Z",
+    "currentLowestSellPrice": 15,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 14.0,
+    "avgPrice_14d": 14.08,
+    "avgHighestPrice_7d": 20.67,
+    "avgHighestPrice_14d": 20.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 3.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.6,
+        "profitRatio(%)": 26.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 2.67,
+        "profitRatio(%)": 26.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "STEEL WAVE",
+    "itemId": "33528ab3-6968-466b-a639-c2f13266994a",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/18be687f_9f3e_ba78_de88_19d5e33b5f6d.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-04T23:05:50.581Z",
+    "currentLowestSellPrice": 15,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 13.0,
+    "avgPrice_14d": 13.54,
+    "avgHighestPrice_7d": 18.67,
+    "avgHighestPrice_14d": 19.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 3.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 1.7,
+        "profitRatio(%)": 17.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 2.18,
+        "profitRatio(%)": 21.85,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "왕가의 보호",
+    "itemId": "faf2904e-b1d7-63d1-3153-0fdf9c5dc5f4",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f7218cf1_db3e_752c_65ba_e6106e1146d6.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-23T23:00:45.055Z",
+    "currentLowestSellPrice": 15,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 13.83,
+    "avgPrice_14d": 13.92,
+    "avgHighestPrice_7d": 19.83,
+    "avgHighestPrice_14d": 20.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 3.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.45,
+        "profitRatio(%)": 24.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 2.53,
+        "profitRatio(%)": 25.31,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "회복 중",
+    "itemId": "66d7ff5b-186c-4dc1-bc9e-e0b993bed73e",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1194558e_240b_f5c9_a88f_30b02efc8c36.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-08-04T09:00:02.682Z",
+    "currentLowestSellPrice": 45,
+    "currentHighestBuyPrice": 35,
+    "avgPrice_7d": 35.33,
+    "avgPrice_14d": 39.85,
+    "avgHighestPrice_7d": 48.33,
+    "avgHighestPrice_14d": 55.77,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 10.5,
+        "profitRatio(%)": 35.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 1.8,
+        "profitRatio(%)": 6.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 5.86,
+        "profitRatio(%)": 19.54,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "태평한 유명 인사",
+    "itemId": "1bb8dc7a-d9ef-440c-abe4-b4cbec9822da",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/fdedaed0_bebf_cbe9_e566_c5f76376f5f3.png",
+    "myBuyPrice": 85,
+    "buyDate": "2025-07-10T21:12:24.410Z",
+    "currentLowestSellPrice": 125,
+    "currentHighestBuyPrice": 100,
+    "avgPrice_7d": 108.5,
+    "avgPrice_14d": 121.69,
+    "avgHighestPrice_7d": 136.67,
+    "avgHighestPrice_14d": 152.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 27.5,
+        "profitRatio(%)": 32.35,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 12.65,
+        "profitRatio(%)": 14.88,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 24.52,
+        "profitRatio(%)": 28.85,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "묘비의 응시",
+    "itemId": "fe12647f-d465-9153-b155-cf3862f7a3c5",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7be4da69_a877_5917_5baa_8578033a1add.png",
+    "myBuyPrice": 35,
+    "buyDate": "2025-06-21T15:14:11.313Z",
+    "currentLowestSellPrice": 50,
+    "currentHighestBuyPrice": 35,
+    "avgPrice_7d": 41.83,
+    "avgPrice_14d": 46.46,
+    "avgHighestPrice_7d": 60.0,
+    "avgHighestPrice_14d": 66.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 10.0,
+        "profitRatio(%)": 28.57,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.65,
+        "profitRatio(%)": 7.57,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 6.82,
+        "profitRatio(%)": 19.47,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "잠자리 정찰대",
+    "itemId": "59712082-efa7-215e-cf92-6021fd34eb34",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/036bf71a_2c7c_4e6b_9dc5_85d8b10c4ddc.png",
+    "myBuyPrice": 40,
+    "buyDate": "2025-06-21T13:48:20.127Z",
+    "currentLowestSellPrice": 55,
+    "currentHighestBuyPrice": 36,
+    "avgPrice_7d": 48.67,
+    "avgPrice_14d": 49.54,
+    "avgHighestPrice_7d": 65.0,
+    "avgHighestPrice_14d": 65.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 9.5,
+        "profitRatio(%)": 23.75,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 3.8,
+        "profitRatio(%)": 9.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 4.58,
+        "profitRatio(%)": 11.46,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "엄숙한 공간",
+    "itemId": "c121fc42-dc0f-5106-5b6b-8d20d62bdb21",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4797b53d_f6b4_5cca_dfb9_a6f6e101750f.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-06-21T16:19:43.979Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": 30,
+    "avgPrice_7d": 38.67,
+    "avgPrice_14d": 40.23,
+    "avgHighestPrice_7d": 51.33,
+    "avgHighestPrice_14d": 52.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 6.0,
+        "profitRatio(%)": 20.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 4.8,
+        "profitRatio(%)": 16.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 6.21,
+        "profitRatio(%)": 20.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "대장장이 임무",
+    "itemId": "525b418c-48ef-4dd2-b211-da6259fd473b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bef6b584_8fd5_075c_8c79_de3bc64c1bbb.png",
+    "myBuyPrice": 60,
+    "buyDate": "2025-06-21T17:37:39.664Z",
+    "currentLowestSellPrice": 80,
+    "currentHighestBuyPrice": 75,
+    "avgPrice_7d": 81.17,
+    "avgPrice_14d": 85.69,
+    "avgHighestPrice_7d": 97.5,
+    "avgHighestPrice_14d": 104.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 12.0,
+        "profitRatio(%)": 20.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 13.05,
+        "profitRatio(%)": 21.75,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 17.12,
+        "profitRatio(%)": 28.54,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "컴퓨터 그리드 프레임워크",
+    "itemId": "5bf74c91-5b58-fbef-d847-f8e0b8688db8",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c72fb6ce_6476_9576_3941_8281e5fe0ea1.png",
+    "myBuyPrice": 15,
+    "buyDate": "2025-06-24T11:42:29.484Z",
+    "currentLowestSellPrice": 20,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 19.67,
+    "avgPrice_14d": 19.54,
+    "avgHighestPrice_7d": 31.67,
+    "avgHighestPrice_14d": 32.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 3.0,
+        "profitRatio(%)": 20.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 2.7,
+        "profitRatio(%)": 18.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 2.58,
+        "profitRatio(%)": 17.23,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "DEADLY OMEN",
+    "itemId": "5b743ec6-31d6-8c25-0c7b-f995aab31f32",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a39fe410_9849_c6b9_e685_c7be69a71e24.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-07-23T22:19:52.252Z",
+    "currentLowestSellPrice": 40,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 27.17,
+    "avgPrice_14d": 29.77,
+    "avgHighestPrice_7d": 41.67,
+    "avgHighestPrice_14d": 43.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 6.0,
+        "profitRatio(%)": 20.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -5.55,
+        "profitRatio(%)": -18.5,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -3.21,
+        "profitRatio(%)": -10.69,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "훈련 기간",
+    "itemId": "2ddf8e79-a115-48a9-b3fd-4f3ddaf744d7",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/91574299_cc88_b743_e8e5_2b8b978b3871.png",
+    "myBuyPrice": 49,
+    "buyDate": "2025-07-23T22:50:28.541Z",
+    "currentLowestSellPrice": 65,
+    "currentHighestBuyPrice": 40,
+    "avgPrice_7d": 59.67,
+    "avgPrice_14d": 65.54,
+    "avgHighestPrice_7d": 76.83,
+    "avgHighestPrice_14d": 83.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 9.5,
+        "profitRatio(%)": 19.39,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 4.7,
+        "profitRatio(%)": 9.59,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 9.98,
+        "profitRatio(%)": 20.38,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "구리 로봇",
+    "itemId": "78cc7000-7fd9-49e4-ad85-15ac007df821",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/293ca43b_43de_ae55_e838_2d5ceec769b2.png",
+    "myBuyPrice": 34,
+    "buyDate": "2025-06-21T13:39:54.450Z",
+    "currentLowestSellPrice": 45,
+    "currentHighestBuyPrice": 30,
+    "avgPrice_7d": 36.0,
+    "avgPrice_14d": 38.69,
+    "avgHighestPrice_7d": 48.17,
+    "avgHighestPrice_14d": 51.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 6.5,
+        "profitRatio(%)": 19.12,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -1.6,
+        "profitRatio(%)": -4.71,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": 0.82,
+        "profitRatio(%)": 2.42,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "쉬운 훈련",
+    "itemId": "6c7074eb-5216-4827-901b-94ff07e2cdc9",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/577e66ed_bc68_1075_633e_f21a66dfe049.png",
+    "myBuyPrice": 50,
+    "buyDate": "2025-06-21T15:08:43.895Z",
+    "currentLowestSellPrice": 65,
+    "currentHighestBuyPrice": 55,
+    "avgPrice_7d": 47.5,
+    "avgPrice_14d": 50.69,
+    "avgHighestPrice_7d": 62.5,
+    "avgHighestPrice_14d": 66.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 8.5,
+        "profitRatio(%)": 17.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -7.25,
+        "profitRatio(%)": -14.5,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -4.38,
+        "profitRatio(%)": -8.75,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "8e228819-e92d-7040-7639-95f8a3a5326d",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2df9f3ba_e0f5_1e64_8c1e_071df6da3014.png",
+    "myBuyPrice": 350,
+    "buyDate": "2025-08-01T17:37:32.799Z",
+    "currentLowestSellPrice": 445,
+    "currentHighestBuyPrice": 350,
+    "avgPrice_7d": 467.67,
+    "avgPrice_14d": 493.23,
+    "avgHighestPrice_7d": 535.33,
+    "avgHighestPrice_14d": 571.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 50.5,
+        "profitRatio(%)": 14.43,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 70.9,
+        "profitRatio(%)": 20.26,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 93.91,
+        "profitRatio(%)": 26.83,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "깔끔한 비행",
+    "itemId": "e733b2f8-f90f-4db6-a209-709101fc17a6",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f1d99e31_66d0_663c_b86f_b87606640119.png",
+    "myBuyPrice": 12,
+    "buyDate": "2025-07-23T23:23:52.806Z",
+    "currentLowestSellPrice": 15,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 18.33,
+    "avgPrice_14d": 19.69,
+    "avgHighestPrice_7d": 27.83,
+    "avgHighestPrice_14d": 29.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 1.5,
+        "profitRatio(%)": 12.5,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 4.5,
+        "profitRatio(%)": 37.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 5.72,
+        "profitRatio(%)": 47.69,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "리지 톱",
+    "itemId": "830989ea-6016-49f1-8c44-cda067c6014c",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d03cac12_ac53_381c_3597_3643ff3d670b.png",
+    "myBuyPrice": 80,
+    "buyDate": "2025-07-25T16:49:45.597Z",
+    "currentLowestSellPrice": 100,
+    "currentHighestBuyPrice": 80,
+    "avgPrice_7d": 88.33,
+    "avgPrice_14d": 93.31,
+    "avgHighestPrice_7d": 112.33,
+    "avgHighestPrice_14d": 119.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 10.0,
+        "profitRatio(%)": 12.5,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -0.5,
+        "profitRatio(%)": -0.62,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": 3.98,
+        "profitRatio(%)": 4.97,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "비격식의 위대함",
+    "itemId": "bd7b4ad8-41d0-3971-6431-bdcbca8071bc",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6ff69e8d_7db0_7a4c_e2bd_e8b4b0277582.png",
+    "myBuyPrice": 120,
+    "buyDate": "2025-08-05T13:52:41.504Z",
+    "currentLowestSellPrice": 149,
+    "currentHighestBuyPrice": 142,
+    "avgPrice_7d": 149.83,
+    "avgPrice_14d": 158.54,
+    "avgHighestPrice_7d": 188.17,
+    "avgHighestPrice_14d": 199.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 14.1,
+        "profitRatio(%)": 11.75,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 14.85,
+        "profitRatio(%)": 12.38,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 22.68,
+        "profitRatio(%)": 18.9,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "잠자리 정찰대",
+    "itemId": "dca07095-b0d3-3e97-4e98-310583dbfb61",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/191cf069_8e36_b1d9_9989_031e4e1fb6c6.png",
+    "myBuyPrice": 54,
+    "buyDate": "2025-06-21T13:48:10.177Z",
+    "currentLowestSellPrice": 67,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 55.17,
+    "avgPrice_14d": 57.08,
+    "avgHighestPrice_7d": 73.17,
+    "avgHighestPrice_14d": 75.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 6.3,
+        "profitRatio(%)": 11.67,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -4.35,
+        "profitRatio(%)": -8.06,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -2.63,
+        "profitRatio(%)": -4.87,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "완전한 인식",
+    "itemId": "5d71920d-8f42-348f-cf8a-40edd8513083",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1e46a072_d0c6_a013_3e69_f6534d63270a.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-06-21T13:53:11.531Z",
+    "currentLowestSellPrice": 30,
+    "currentHighestBuyPrice": 15,
+    "avgPrice_7d": 23.83,
+    "avgPrice_14d": 26.0,
+    "avgHighestPrice_7d": 40.5,
+    "avgHighestPrice_14d": 42.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 2.0,
+        "profitRatio(%)": 8.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -3.55,
+        "profitRatio(%)": -14.2,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -1.6,
+        "profitRatio(%)": -6.4,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "THERMITE 군번줄",
+    "itemId": "7e86d232-93a9-4eba-b974-0a4ca92edd61",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/675f0369_cda3_0119_2bda_0267784ee8b5.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-08-01T00:21:38.803Z",
+    "currentLowestSellPrice": 12,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.6,
+    "avgPrice_14d": 10.4,
+    "avgHighestPrice_7d": 11.2,
+    "avgHighestPrice_14d": 11.1,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 0.8,
+        "profitRatio(%)": 8.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": -0.46,
+        "profitRatio(%)": -4.6,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -0.64,
+        "profitRatio(%)": -6.4,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "b1cdb343-8ca2-4f7e-b489-af66bfe914cd",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dd1d42bd_53ce_0c52_e256_4808fb7667ac.png",
+    "myBuyPrice": 650,
+    "buyDate": "2025-08-04T09:47:46.027Z",
+    "currentLowestSellPrice": 780,
+    "currentHighestBuyPrice": 688,
+    "avgPrice_7d": 764.83,
+    "avgPrice_14d": 820.31,
+    "avgHighestPrice_7d": 840.5,
+    "avgHighestPrice_14d": 916.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 52.0,
+        "profitRatio(%)": 8.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 38.35,
+        "profitRatio(%)": 5.9,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 88.28,
+        "profitRatio(%)": 13.58,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "2277092f-38a6-e908-8856-eb827ee97b91",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/247dcd98_005c_f0ce_8d26_78b962ba3772.png",
+    "myBuyPrice": 450,
+    "buyDate": "2025-08-04T21:44:14.057Z",
+    "currentLowestSellPrice": 540,
+    "currentHighestBuyPrice": 435,
+    "avgPrice_7d": 533.17,
+    "avgPrice_14d": 575.38,
+    "avgHighestPrice_7d": 615.67,
+    "avgHighestPrice_14d": 662.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": 36.0,
+        "profitRatio(%)": 8.0,
+        "isProfitable": true
+      },
+      "by_avg7dPrice": {
+        "netProfit": 29.85,
+        "profitRatio(%)": 6.63,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 67.85,
+        "profitRatio(%)": 15.08,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "패딩 섀시",
+    "itemId": "3326a4b7-1a45-0a65-514c-7d66d3a61733",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/48b01dc2_de0c_e3e4_8c16_97d785e61a9d.png",
+    "myBuyPrice": 50,
+    "buyDate": "2025-06-21T13:40:16.253Z",
+    "currentLowestSellPrice": 55,
+    "currentHighestBuyPrice": 40,
+    "avgPrice_7d": 50.83,
+    "avgPrice_14d": 55.15,
+    "avgHighestPrice_7d": 68.0,
+    "avgHighestPrice_14d": 72.85,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -0.5,
+        "profitRatio(%)": -1.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -4.25,
+        "profitRatio(%)": -8.5,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -0.36,
+        "profitRatio(%)": -0.72,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "CASTLE 군번줄",
+    "itemId": "e47ee971-7812-4675-9760-852757fd5868",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9a0b69d6_a6c8_5816_ed20_2056341b1414.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-08-01T00:20:35.829Z",
+    "currentLowestSellPrice": 11,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.0,
+    "avgPrice_14d": 10.0,
+    "avgHighestPrice_7d": 10.0,
+    "avgHighestPrice_14d": 10.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -0.1,
+        "profitRatio(%)": -1.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "블랙 아이스",
+    "itemId": "5b044cba-cfa3-1116-7902-11df8c227c3a",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/59ef9e6e_a473_3a57_b473_cd74fb19cb1e.png",
+    "myBuyPrice": 500,
+    "buyDate": "2025-08-05T15:27:21.643Z",
+    "currentLowestSellPrice": 550,
+    "currentHighestBuyPrice": 490,
+    "avgPrice_7d": 595.5,
+    "avgPrice_14d": 636.69,
+    "avgHighestPrice_7d": 670.0,
+    "avgHighestPrice_14d": 719.85,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -5.0,
+        "profitRatio(%)": -1.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 35.95,
+        "profitRatio(%)": 7.19,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 73.02,
+        "profitRatio(%)": 14.6,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "기술 매트릭스",
+    "itemId": "0839ad12-55de-8970-5b54-a6378401a0fe",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6d782127_6aa3_9ae7_1452_4e9f95552bb4.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-21T13:53:20.732Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 16.33,
+    "avgPrice_14d": 17.31,
+    "avgHighestPrice_7d": 24.67,
+    "avgHighestPrice_14d": 26.46,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 4.7,
+        "profitRatio(%)": 47.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 5.58,
+        "profitRatio(%)": 55.77,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "네코 메크",
+    "itemId": "7cf04498-48f1-7258-3041-c1890acafda2",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f9e3f46_e102_0efd_179b_b6a6252dc6da.png",
+    "myBuyPrice": 44,
+    "buyDate": "2025-06-21T14:51:58.513Z",
+    "currentLowestSellPrice": 44,
+    "currentHighestBuyPrice": 28,
+    "avgPrice_7d": 34.83,
+    "avgPrice_14d": 39.77,
+    "avgHighestPrice_7d": 49.17,
+    "avgHighestPrice_14d": 57.08,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -4.4,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -12.65,
+        "profitRatio(%)": -28.75,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -8.21,
+        "profitRatio(%)": -18.65,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "CRIMSON HEIST",
+    "itemId": "546a0e34-b0ed-4b69-b2fd-3425796fd64b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/13cf4ae9_c57f_0268_9450_babd76db190c.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-21T15:11:04.179Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 16.83,
+    "avgPrice_14d": 16.15,
+    "avgHighestPrice_7d": 18.67,
+    "avgHighestPrice_14d": 19.15,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 5.15,
+        "profitRatio(%)": 51.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 4.54,
+        "profitRatio(%)": 45.38,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "STEEL WAVE",
+    "itemId": "648ecb30-0e71-4f5a-8add-5ed7eb2261eb",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/78800ae1_2f0f_6046_bd67_9ae3a0251fa9.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-24T11:23:37.630Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.5,
+    "avgPrice_14d": 10.23,
+    "avgHighestPrice_7d": 12.83,
+    "avgHighestPrice_14d": 12.23,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -0.55,
+        "profitRatio(%)": -5.5,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -0.79,
+        "profitRatio(%)": -7.92,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "초조함",
+    "itemId": "01b1ecea-e9e0-1894-9dd2-016c0e550a65",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/38c780bf_fa03_55ac_ed41_5e0c1ebe9973.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-06-24T11:26:20.325Z",
+    "currentLowestSellPrice": 20,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 16.83,
+    "avgPrice_14d": 17.15,
+    "avgHighestPrice_7d": 23.17,
+    "avgHighestPrice_14d": 23.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -2.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -4.85,
+        "profitRatio(%)": -24.25,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -4.56,
+        "profitRatio(%)": -22.81,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "굴절 모자",
+    "itemId": "67ffe7bc-f9d1-94fc-aa24-66c155293839",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/03a8da03_05e5_5bf5_fbfc_a578fccfd77d.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-06-29T22:47:37.559Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.0,
+    "avgPrice_14d": 10.08,
+    "avgHighestPrice_7d": 12.33,
+    "avgHighestPrice_14d": 12.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -0.93,
+        "profitRatio(%)": -9.31,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "갑각 케이싱",
+    "itemId": "33fac82c-abac-d426-9321-47b87ecbf089",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8bdb3dd1_4266_c515_a6a5_08a032964022.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-06-29T22:48:06.249Z",
+    "currentLowestSellPrice": 20,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 17.33,
+    "avgPrice_14d": 17.85,
+    "avgHighestPrice_7d": 27.17,
+    "avgHighestPrice_14d": 27.46,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -2.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -4.4,
+        "profitRatio(%)": -22.0,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -3.94,
+        "profitRatio(%)": -19.69,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "STEEL WAVE",
+    "itemId": "941b7aa1-af08-43ba-af57-28699468cf32",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ab4f7926_c2ae_152d_5f15_58c3d69fed82.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-04T23:05:58.585Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.0,
+    "avgPrice_14d": 10.0,
+    "avgHighestPrice_7d": 10.33,
+    "avgHighestPrice_14d": 10.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "선임 전투원",
+    "itemId": "c76b1ce2-0cd0-88af-6716-0e05bd8885ea",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/399aebbf_d1e9_47df_8ac8_b94ff8503de0.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T21:34:09.445Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 11.17,
+    "avgPrice_14d": 11.15,
+    "avgHighestPrice_7d": 15.0,
+    "avgHighestPrice_14d": 14.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 0.05,
+        "profitRatio(%)": 0.5,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 0.04,
+        "profitRatio(%)": 0.38,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "트레커 모자",
+    "itemId": "2b5d22fc-96fa-7586-c697-93c90161a915",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1e4b7cd3_7007_72f9_7ad2_4fc527aaae78.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-11T22:11:29.304Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 14.67,
+    "avgPrice_14d": 12.15,
+    "avgHighestPrice_7d": 61.5,
+    "avgHighestPrice_14d": 33.77,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 3.2,
+        "profitRatio(%)": 32.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 0.94,
+        "profitRatio(%)": 9.38,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "컴퓨터 그리드 프로그램",
+    "itemId": "39618595-62c2-4435-b35d-a151fdb53a12",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4b3eb1c8_eafc_4b9f_952d_aa948c49e3c9.png",
+    "myBuyPrice": 30,
+    "buyDate": "2025-07-23T14:35:51.730Z",
+    "currentLowestSellPrice": 30,
+    "currentHighestBuyPrice": 20,
+    "avgPrice_7d": 38.33,
+    "avgPrice_14d": 41.54,
+    "avgHighestPrice_7d": 54.83,
+    "avgHighestPrice_14d": 59.69,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -3.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 4.5,
+        "profitRatio(%)": 15.0,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 7.38,
+        "profitRatio(%)": 24.62,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "CAVEIRA 트로피 2020",
+    "itemId": "8c9cd3cc-f0cd-4cbd-a154-78853638d486",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6d651f47_53bd_63b2_71a7_6ce2385b8876.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-07-23T21:44:35.273Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.0,
+    "avgPrice_14d": 10.0,
+    "avgHighestPrice_7d": 12.67,
+    "avgHighestPrice_14d": 12.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "VALKYRIE 군번줄",
+    "itemId": "8e9d2b04-d2e4-45ce-9dba-89f7e200654b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/41899382_8632_f4fa_98ef_2982702d59e0.png",
+    "myBuyPrice": 10,
+    "buyDate": "2025-08-01T00:22:20.516Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 21.2,
+    "avgPrice_14d": 15.09,
+    "avgHighestPrice_7d": 64.2,
+    "avgHighestPrice_14d": 34.91,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -1.0,
+        "profitRatio(%)": -10.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 9.08,
+        "profitRatio(%)": 90.8,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 3.58,
+        "profitRatio(%)": 35.82,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "DEADLY OMEN",
+    "itemId": "cd1233c3-f7e2-06a8-f44d-43536439bcb0",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/93054ff0_843f_eb6f_6178_3d513c700734.png",
+    "myBuyPrice": 25,
+    "buyDate": "2025-06-29T22:48:40.106Z",
+    "currentLowestSellPrice": 23,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 1074.33,
+    "avgPrice_14d": 508.15,
+    "avgHighestPrice_7d": 25025.33,
+    "avgHighestPrice_14d": 11567.38,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -4.3,
+        "profitRatio(%)": -17.2,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": 941.9,
+        "profitRatio(%)": 3767.6,
+        "isProfitable": true
+      },
+      "by_avg14dPrice": {
+        "netProfit": 432.34,
+        "profitRatio(%)": 1729.35,
+        "isProfitable": true
+      }
+    }
+  },
+  {
+    "name": "FROST 군번줄",
+    "itemId": "2a70eda5-4c41-4477-bc29-9a1747a71e03",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8dc46cf9_138d_39be_ef5c_511fd2bfed60.png",
+    "myBuyPrice": 12,
+    "buyDate": "2025-08-01T00:21:06.575Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 10.25,
+    "avgPrice_14d": 10.44,
+    "avgHighestPrice_7d": 10.5,
+    "avgHighestPrice_14d": 11.0,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -3.0,
+        "profitRatio(%)": -25.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -2.78,
+        "profitRatio(%)": -23.13,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -2.6,
+        "profitRatio(%)": -21.67,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "패딩 섀시",
+    "itemId": "6c45496b-eb2b-4576-bdc2-add5ff0d3588",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/15058dd5_4dda_c2ac_725f_8ce6b0494254.png",
+    "myBuyPrice": 49,
+    "buyDate": "2025-06-21T13:40:05.824Z",
+    "currentLowestSellPrice": 39,
+    "currentHighestBuyPrice": 30,
+    "avgPrice_7d": 32.0,
+    "avgPrice_14d": 33.0,
+    "avgHighestPrice_7d": 45.67,
+    "avgHighestPrice_14d": 46.31,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -13.9,
+        "profitRatio(%)": -28.37,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -20.2,
+        "profitRatio(%)": -41.22,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -19.3,
+        "profitRatio(%)": -39.39,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "편집된 작전",
+    "itemId": "e3977105-1264-8460-9bab-db8c16a3b65b",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b477cd0b_9ec5_51a4_3615_478c9d607d98.png",
+    "myBuyPrice": 35,
+    "buyDate": "2025-06-21T13:42:20.042Z",
+    "currentLowestSellPrice": 25,
+    "currentHighestBuyPrice": 10,
+    "avgPrice_7d": 23.17,
+    "avgPrice_14d": 22.85,
+    "avgHighestPrice_7d": 33.5,
+    "avgHighestPrice_14d": 34.62,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -12.5,
+        "profitRatio(%)": -35.71,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -14.15,
+        "profitRatio(%)": -40.43,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -14.44,
+        "profitRatio(%)": -41.25,
+        "isProfitable": false
+      }
+    }
+  },
+  {
+    "name": "안정적인 숨결",
+    "itemId": "ec58a463-5764-53a2-a0b6-5cb5bf0cff35",
+    "assetUrl": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/MtxAssetsDeployer/c4fa731b_8bdd_f534_e6e1_97cc1ba94b05.png",
+    "myBuyPrice": 20,
+    "buyDate": "2025-07-23T23:06:43.356Z",
+    "currentLowestSellPrice": 10,
+    "currentHighestBuyPrice": null,
+    "avgPrice_7d": 17.0,
+    "avgPrice_14d": 16.92,
+    "avgHighestPrice_7d": 22.67,
+    "avgHighestPrice_14d": 23.54,
+    "estimatedProfitability": {
+      "by_currentPrice": {
+        "netProfit": -11.0,
+        "profitRatio(%)": -55.0,
+        "isProfitable": false
+      },
+      "by_avg7dPrice": {
+        "netProfit": -4.7,
+        "profitRatio(%)": -23.5,
+        "isProfitable": false
+      },
+      "by_avg14dPrice": {
+        "netProfit": -4.77,
+        "profitRatio(%)": -23.85,
+        "isProfitable": false
+      }
+    }
+  }
+]

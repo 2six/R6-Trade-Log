@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "R6S Market Token Helper",
+  "version": "1.1",
+  "description": "R6S Marketplace에서 인증 토큰을 쉽게 복사합니다.",
+  "permissions": [
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*.ubi.com/*",
+    "*://*.ubisoft.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

@@ -1,228 +1,186 @@
-# analyze_market.py (최종 완성본: 모든 오류 수정)
+# scraper.py (최종 완성본: 한글 이름 적용)
 
 import json
 import os
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
+from curl_cffi import requests
 
-try:
-    from curl_cffi import requests
-except ImportError:
-    print("오류: curl_cffi 라이브러리를 찾을 수 없습니다.")
-    print("터미널에 'pip install curl_cffi'를 입력하여 설치해주세요.")
-    exit()
-
-# --- 상수 및 설정 ---
+# --- 상수 정의 ---
 CONFIG_FILE = 'config.json'
+TRANSACTIONS_FILE = 'transactions.json'
+RESULTS_FILE = 'results.json'
 GRAPHQL_DIR = 'graphql'
-REPORTS_DIR = 'reports'
-OUTPUT_FILE = os.path.join(REPORTS_DIR, 'market_analysis.json')
 API_URL = "https://public-ubiservices.ubi.com/v1/profiles/me/uplay/graphql"
 APP_ID = "3587dc57-db54-4429-b69a-18b546397706"
 
-# --- 사용자 투자 전략 설정 ---
-TARGET_ITEM_COUNT = 200      # 분석할 시장 인기 상위 아이템 개수
-MIN_PRICE = 101              # 분석 대상 최소 가격 (100 초과)
-MAX_PRICE = 4999             # 분석 대상 최대 가격 (5000 미만)
-MIN_ORDERS = 20              # 최소 판매/구매 주문 수 (거래 활성도 필터)
-SPREAD_PROFIT_RATIO = 0.10   # N일 평균가의 10% 이상 스프레드 발생 시 '유의미'로 판단
-
 # --- 도우미 함수 ---
 def load_json_file(file_path):
+    """JSON 파일을 안전하게 로드합니다."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"오류: '{file_path}' 파일을 읽는 중 문제 발생. {e}")
+    except FileNotFoundError:
+        print(f"오류: '{file_path}' 파일을 찾을 수 없습니다.")
+        return None
+    except json.JSONDecodeError:
+        print(f"오류: '{file_path}' 파일의 형식이 잘못되었습니다.")
         return None
 
 def save_json_file(data, file_path):
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    """JSON 데이터를 파일에 저장합니다."""
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"\n성공: 최종 분석 보고서가 '{file_path}'에 저장되었습니다.")
+    print(f"성공: 데이터가 '{file_path}' 파일에 저장되었습니다.")
 
 def make_api_call(session, headers, payload):
-    if not isinstance(payload, list):
-        payload = [payload]
-    response = session.post(API_URL, headers=headers, json=payload, timeout=60, impersonate="chrome110")
+    """GraphQL API를 호출하고 응답을 반환합니다."""
+    response = session.post(API_URL, headers=headers, json=[payload], timeout=30, impersonate="chrome110")
+    
     if response.status_code == 401:
-        raise Exception("인증 실패(401). 'config.json'의 토큰/세션 ID가 만료되었거나 올바르지 않습니다.")
+        raise Exception("인증 실패(401). 'config.json'의 토큰/세션 ID가 만료되었습니다.")
     response.raise_for_status()
-    return response.json()
+    
+    data = response.json()
+    # 일부 단일 요청은 리스트가 아닐 수 있으므로 확인 후 처리
+    if isinstance(data, list):
+        data = data[0]
+        
+    if data.get("errors"):
+        raise Exception(f"GraphQL API 오류: {data['errors']}")
+    return data
 
 # --- 메인 로직 ---
-def fetch_top_market_items(session, headers, graphql_query):
-    """최근 거래가 순으로 정렬된 상위 아이템 목록을 수집하고 1차 필터링합니다."""
-    candidate_items = []
+def fetch_all_transactions(session, headers, graphql_query):
+    """모든 거래 내역을 페이지네이션을 통해 가져옵니다."""
+    all_transactions = []
     offset = 0
-    limit = 50
+    limit = 100
     
-    print(f"\n[1단계] 시장 인기 아이템 수집 및 1차 필터링을 시작합니다...")
-    while len(candidate_items) < TARGET_ITEM_COUNT:
-        print(f"  - {offset}번째부터 {limit}개 아이템을 요청합니다...")
+    print("\n[1단계] 전체 거래 내역 수집을 시작합니다...")
+    while True:
+        print(f"  - {offset}번째부터 {limit}개 거래 내역을 요청합니다...")
         graphql_query["variables"]["offset"] = offset
         
-        response_data = make_api_call(session, headers, graphql_query)[0]
-        items = response_data.get("data", {}).get("game", {}).get("marketableItems", {}).get("nodes", [])
+        response_data = make_api_call(session, headers, graphql_query)
+        transactions_data = response_data.get("data", {}).get("game", {}).get("viewer", {}).get("meta", {}).get("trades", {})
+        transactions = transactions_data.get("nodes", [])
         
-        if not items:
-            print("  - 더 이상 가져올 아이템이 없습니다.")
+        if not transactions:
+            print("  - 더 이상 가져올 거래 내역이 없습니다.")
+            break
+            
+        all_transactions.extend(transactions)
+        
+        total_count = transactions_data.get("totalCount", 0)
+        if len(all_transactions) >= total_count:
+            print("  - 모든 거래 내역을 수집했습니다.")
             break
 
-        for item in items:
-            try:
-                market_data = item.get("marketData")
-                if not market_data: continue
-
-                # --- 'NoneType' 오류 방지를 위한 안전장치 강화 ---
-                sell_stats_list = market_data.get("sellStats")
-                buy_stats_list = market_data.get("buyStats")
-
-                if not sell_stats_list or not buy_stats_list: continue # 판매 또는 구매 주문이 없으면 건너뛰기
-
-                sell_stats = sell_stats_list[0]
-                buy_stats = buy_stats_list[0]
-                # -----------------------------------------------
-                
-                price = sell_stats.get("lowestPrice")
-                sell_orders = sell_stats.get("activeCount", 0)
-                buy_orders = buy_stats.get("activeCount", 0)
-
-                if price and (MIN_PRICE <= price <= MAX_PRICE) and (sell_orders >= MIN_ORDERS) and (buy_orders >= MIN_ORDERS):
-                    candidate_items.append(item)
-                    if len(candidate_items) >= TARGET_ITEM_COUNT:
-                        break
-            except (IndexError, TypeError, AttributeError):
-                continue
-        
-        offset += len(items)
-        if len(items) < limit: break
+        offset += len(transactions)
         time.sleep(1)
-
-    print(f"1차 필터링 후, 분석 대상 유망 후보 아이템 {len(candidate_items)}개를 선정했습니다.")
-    return candidate_items
-
-def analyze_items_deep_dive(session, headers, items_to_analyze):
-    """선정된 아이템들의 과거 가격을 분석하여 두 가지 투자 전략을 적용합니다."""
-    print("\n[2단계] 유망 후보 심층 분석을 시작합니다...")
-    
-    history_query_template = load_json_file(os.path.join(GRAPHQL_DIR, 'GetItemPriceHistory.json'))
-    if not history_query_template: return []
-
-    analysis_results = []
-    batch_size = 10
-    item_batches = [items_to_analyze[i:i + batch_size] for i in range(0, len(items_to_analyze), batch_size)]
-
-    for batch in item_batches:
-        payloads = []
-        item_map = {}
-        for item in batch:
-            item_id = item.get("item", {}).get("itemId")
-            if item_id:
-                query_copy = json.loads(json.dumps(history_query_template))
-                query_copy["variables"]["itemId"] = item_id
-                payloads.append(query_copy)
-                item_map[item_id] = item
-
-        if not payloads: continue
         
-        print(f"  - {len(batch)}개 아이템의 가격 히스토리 일괄 요청 중...")
+    print(f"총 {len(all_transactions)}개의 거래 내역을 수집했습니다.")
+    return all_transactions
+
+def process_item_details(session, headers, transactions):
+    """거래 내역을 기반으로 각 아이템의 상세 정보와 가격을 가져옵니다."""
+    print("\n[2단계] 아이템별 상세 정보 수집을 시작합니다...")
+    
+    details_query_template = load_json_file(os.path.join(GRAPHQL_DIR, 'GetItemDetails.json'))
+    history_query_template = load_json_file(os.path.join(GRAPHQL_DIR, 'GetItemPriceHistory.json'))
+    if not details_query_template or not history_query_template: return []
+
+    final_results = []
+    processed_item_ids = set()
+
+    unique_items = []
+    for tx in transactions:
+        item_info = tx.get("tradeItems", [{}])[0].get("item", {})
+        item_id = item_info.get("itemId")
+        if item_id and item_id not in processed_item_ids:
+            unique_items.append(item_info)
+            processed_item_ids.add(item_id)
+
+    print(f"분석할 고유 아이템 개수: {len(unique_items)}개")
+
+    for item_info in unique_items:
+        item_id = item_info.get("itemId")
         try:
-            batch_responses = make_api_call(session, headers, payloads)
-            time.sleep(1.5)
+            print(f"  - 아이템 '{item_info.get('name')}'의 정보를 요청합니다...")
+            
+            details_query_template["variables"]["itemId"] = item_id
+            history_query_template["variables"]["itemId"] = item_id
+            
+            batch_payload = [details_query_template, history_query_template]
+            
+            response = session.post(API_URL, headers=headers, json=batch_payload, timeout=30, impersonate="chrome110")
+            response.raise_for_status()
+            batch_response_data = response.json()
+            
+            details_data = batch_response_data[0]
+            history_data = batch_response_data[1]
 
-            for i, response in enumerate(batch_responses):
-                history_data = response.get("data", {}).get("game", {}).get("marketableItem", {}) or {}
-                price_history = history_data.get("priceHistory", [])
-                if not price_history: continue
+            market_item_details = details_data.get("data", {}).get("game", {}).get("marketableItem", {}) or {}
+            market_data = market_item_details.get("marketData", {}) or {}
+            
+            market_item_history = history_data.get("data", {}).get("game", {}).get("marketableItem", {}) or {}
+            price_history = market_item_history.get("priceHistory", [])
 
-                today = datetime.now(timezone.utc).date()
-                recent_prices_7d = [h['averagePrice'] for h in price_history if (today - datetime.fromisoformat(h['date']).date()).days < 7]
-                recent_prices_14d = [h['averagePrice'] for h in price_history if (today - datetime.fromisoformat(h['date']).date()).days < 14]
+            result_item = {
+                "itemId": item_id,
+                "name": item_info.get("name"),
+                "type": item_info.get("type"),
+                "tags": item_info.get("tags", []),
+                "assetUrl": item_info.get("assetUrl"),
+                "lowestSellOrder": market_data.get("sellStats", [{}])[0].get("lowestPrice") if market_data.get("sellStats") else None,
+                "highestBuyOrder": market_data.get("buyStats", [{}])[0].get("highestPrice") if market_data.get("buyStats") else None,
+                "lastSoldPrice": market_data.get("lastSoldAt", [{}])[0].get("price") if market_data.get("lastSoldAt") else None,
+                "priceHistory": price_history,
+                "lastUpdated": datetime.now(timezone.utc).isoformat()
+            }
+            final_results.append(result_item)
+            time.sleep(1)
 
-                avg_7d = sum(recent_prices_7d) / len(recent_prices_7d) if recent_prices_7d else 0
-                avg_14d = sum(recent_prices_14d) / len(recent_prices_14d) if recent_prices_14d else 0
-
-                original_item_id = payloads[i]["variables"]["itemId"]
-                original_item = item_map[original_item_id]
-                market_data = original_item.get("marketData", {})
-                
-                # --- 'NoneType' 오류 방지를 위한 안전장치 강화 ---
-                current_price = None
-                if market_data.get("sellStats"):
-                    current_price = market_data["sellStats"][0].get("lowestPrice")
-                
-                highest_buy_order = None
-                if market_data.get("buyStats"):
-                    highest_buy_order = market_data["buyStats"][0].get("highestPrice")
-                
-                if not current_price or not highest_buy_order: continue
-                # -----------------------------------------------
-
-                undervalue_7d = ((avg_7d - current_price) / avg_7d) * 100 if avg_7d > 0 else 0
-                undervalue_14d = ((avg_14d - current_price) / avg_14d) * 100 if avg_14d > 0 else 0
-
-                # --- 스프레드 계산 오류 수정 ---
-                spread = highest_buy_order - current_price
-                # ---------------------------
-
-                is_spread_profitable_7d = (highest_buy_order * 0.9 - current_price) > (avg_7d * SPREAD_PROFIT_RATIO) if avg_7d > 0 else False
-                is_spread_profitable_14d = (highest_buy_order * 0.9 - current_price) > (avg_14d * SPREAD_PROFIT_RATIO) if avg_14d > 0 else False
-
-                analysis_results.append({
-                    "name": original_item.get("item", {}).get("name"),
-                    "undervalue_ratio_7d(%)": round(undervalue_7d, 2),
-                    "undervalue_ratio_14d(%)": round(undervalue_14d, 2),
-                    "is_spread_profitable_7d": is_spread_profitable_7d,
-                    "is_spread_profitable_14d": is_spread_profitable_14d,
-                    "spread": spread,
-                    "current_lowest_price": current_price,
-                    "current_highest_buy_order": highest_buy_order,
-                    "avg_price_7d": round(avg_7d, 2),
-                    "avg_price_14d": round(avg_14d, 2),
-                    "sell_orders": market_data.get("sellStats")[0].get("activeCount"),
-                    "buy_orders": market_data.get("buyStats")[0].get("activeCount"),
-                    "item_id": original_item_id,
-                    "asset_url": original_item.get("item", {}).get("assetUrl")
-                })
         except Exception as e:
-            print(f"  - 일괄 처리 중 오류 발생: {e}")
-
-    analysis_results.sort(key=lambda x: (x["is_spread_profitable_7d"], x["undervalue_ratio_7d(%)"]), reverse=True)
-    return analysis_results
+            item_name = item_info.get("name", "Unknown")
+            print(f"  - 처리 실패: '{item_name}' 처리 중 오류 발생. 오류: {e}")
+            
+    print(f"총 {len(final_results)}개 아이템의 상세 정보를 수집했습니다.")
+    return final_results
 
 def main():
     """메인 실행 함수"""
     config = load_json_file(CONFIG_FILE)
     if not config: return
 
+    # --- 여기가 핵심 수정 사항입니다 ---
+    # 당신이 찾아낸 ubi-localecode 헤더를 추가하여 모든 응답을 한글로 받습니다.
     headers = {
         "Authorization": config.get('uplay_token'),
         "Ubi-AppId": APP_ID,
         "Ubi-SessionId": config.get('ubi_session_id'),
         "Content-Type": "application/json",
-        "Ubi-LocaleCode": "ko-KR"
+        "Ubi-LocaleCode": "ko-KR" 
     }
+    # ------------------------------------
 
     session = requests.Session()
     
     try:
-        market_query = load_json_file(os.path.join(GRAPHQL_DIR, 'GetMarketableItems.json'))
-        if not market_query: return
+        transactions_query = load_json_file(os.path.join(GRAPHQL_DIR, 'GetTransactions.json'))
+        if not transactions_query: return
         
-        potential_candidates = fetch_top_market_items(session, headers, market_query)
-        
-        if not potential_candidates:
-            print("\n분석할 유망 후보 아이템이 없습니다. 필터링 조건을 확인해보세요.")
-        else:
-            final_report = analyze_items_deep_dive(session, headers, potential_candidates)
-            save_json_file(final_report, OUTPUT_FILE)
+        transactions = fetch_all_transactions(session, headers, transactions_query)
+        save_json_file(transactions, TRANSACTIONS_FILE)
+
+        results = process_item_details(session, headers, transactions)
+        save_json_file(results, RESULTS_FILE)
         
     except Exception as e:
         print(f"\n치명적인 오류 발생: {e}")
 
-    print("\n모든 분석 작업이 완료되었습니다.")
+    print("\n모든 작업이 완료되었습니다.")
 
 if __name__ == "__main__":
     main()
